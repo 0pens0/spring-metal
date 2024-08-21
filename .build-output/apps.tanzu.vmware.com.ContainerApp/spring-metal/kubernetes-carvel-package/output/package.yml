@@ -5,10 +5,10 @@ metadata:
     apps.tanzu.vmware.com/promotable: ""
     apps.tanzu.vmware.com/promote-group: ContainerApp/spring-metal
   creationTimestamp: null
-  name: spring-metal.apps.local.20240821.2150.18776
+  name: spring-metal.apps.local.20240821.2159.45436
 spec:
   refName: spring-metal.apps.local
-  releasedAt: "2024-08-21T21:51:22Z"
+  releasedAt: "2024-08-21T22:01:14Z"
   template:
     spec:
       deploy:
@@ -17,7 +17,7 @@ spec:
           - --wait=false
       fetch:
       - imgpkgBundle:
-          image: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:3b427a8734eb84b148ab5b5e26072e5cc63f01cb3e4aaf7389843d9ae1b3fb32
+          image: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:c1db17ca6c5e705d30313b8536aa15736e8dd9cdc3fa0a7c20b726eeaaed0d1f
       template:
       - ytt:
           paths:
@@ -28,4 +28,4 @@ spec:
           - '-'
   valuesSchema:
     openAPIv3: null
-  version: 20240821.2150.18776
+  version: 20240821.2159.45436
