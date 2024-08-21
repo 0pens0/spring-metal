@@ -1,7 +1,7 @@
 apiVersion: services.tanzu.vmware.com/v1
 kind: ServiceBinding
 metadata:
-  name: genai-chat-spring-metal-openso
+  name: genai-chat-CHANGE_ME
   namespace: default
 spec:
   alias: ai-chat
@@ -13,13 +13,13 @@ spec:
   targetRef:
     apiGroup: apps.tanzu.vmware.com
     kind: ContainerApp
-    name: spring-metal-openso
+    name: CHANGE_ME
 
 ---
 apiVersion: services.tanzu.vmware.com/v1
 kind: ServiceBinding
 metadata:
-  name: genai-embed-spring-metal-openso
+  name: genai-embed-CHANGE_ME
   namespace: default
 spec:
   alias: ai-embed
@@ -31,4 +31,4 @@ spec:
   targetRef:
     apiGroup: apps.tanzu.vmware.com
     kind: ContainerApp
-    name: spring-metal-openso
+    name: CHANGE_ME

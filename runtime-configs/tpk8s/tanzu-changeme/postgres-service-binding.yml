@@ -1,7 +1,7 @@
 apiVersion: services.tanzu.vmware.com/v1
 kind: ServiceBinding
 metadata:
-  name: pgvector-spring-metal-openso
+  name: pgvector-CHANGE_ME
   namespace: default
 spec:
   alias: db
@@ -13,4 +13,4 @@ spec:
   targetRef:
     apiGroup: apps.tanzu.vmware.com
     kind: ContainerApp
-    name: spring-metal-openso
+    name: CHANGE_ME

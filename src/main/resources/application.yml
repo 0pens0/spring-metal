@@ -9,42 +9,6 @@ spring:
   jpa:
     generate-ddl: true
 ---
-management:
-  wavefront:
-    api-token: cfd06c63-7ef3-4f3d-a48f-8bf662bf2453// this is a fake token since wavefront lib expects a token, though this is not used for authentication to collector for ingestion
-    uri: http://telegraf.hub-collector.service.internal:8765
-    application:
-      name: spring-metal
-      service-name: spring-metal-ui
-      custom-tags:
-        instance_guid: ${CF_INSTANCE_GUID}
-  metrics:
-    tags:
-      instance_guid: ${CF_INSTANCE_GUID}
-  tracing:
-    sampling:
-      probability: 0.5
-  endpoints:
-    web:
-      exposure:
-        include: "*"
-  endpoint:
-    info:
-      show-values: ALWAYS
-      git:
-        mode: full
-      spring:
-        boot:
-          version: '@app.spring.boot.version@'
-      app:
-        version: @project.version@
-    health:
-      enabled: true
-      show-details: always
-    env:
-      show-values: ALWAYS
-  
----
 logging:
   level:
     root: INFO
