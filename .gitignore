@@ -38,3 +38,5 @@ mem*.db
 
 README.html
 
+.tanzu/config/genai-external-service.yml
+.tanzu/config/postgres-external-service.yml
