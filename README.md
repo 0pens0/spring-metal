@@ -9,7 +9,7 @@ This repository contains artifacts necessary to build and run generative AI appl
 
 ## Architecture
 
-![Alt text](https://github.com/0pens0/spring-metal/blob/main/image.png?raw=true "Spring-metal AI topology")
+![Alt text](https://github.com/0pens0/spring-metal/blob/dev/image.png?raw=true "Spring-metal AI topology")
 
 ## Prerequisites
 - Ensure you have the latest version of the Tanzu CLI installed.
