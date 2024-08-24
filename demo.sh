@@ -10,7 +10,7 @@ GENAI_CHAT_PLAN_NAME="meta-llama/Meta-Llama-3-8B-Instruct" # plan must have chat
 GENAI_EMBEDDINGS_SERVICE_NAME="genai-embed" 
 GENAI_EMBEDDINGS_PLAN_NAME="nomic-embed-text" # plan must have Embeddings capabilty
 
-APP_NAME="spring-metal-openso" # overridable, necessary for TPK8s ingress route
+APP_NAME="spring-metal" # overridable, necessary for TPK8s ingress route
 
 
 
