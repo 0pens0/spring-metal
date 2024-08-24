@@ -3,7 +3,7 @@ applications:
 - name: spring-metal
   
   memory: 1G
-  path: target/spring-metal-0.5.jar
+  path: ../../target/spring-metal-0.5.jar
   buildpack: java_buildpack_offline
   random-route: true
 
