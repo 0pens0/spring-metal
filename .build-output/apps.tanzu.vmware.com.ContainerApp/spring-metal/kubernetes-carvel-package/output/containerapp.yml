@@ -8,31 +8,17 @@ metadata:
   name: spring-metal
 spec:
   content:
-<<<<<<< HEAD
-    buildTimestamp: "2024-09-24T10:38:03Z"
-    gitCommit: 5de40c6c32eff702af58f34e5bb00c8f1ee7d3a9-dirty
+    buildTimestamp: "2024-09-25T09:13:53Z"
+    gitCommit: 4fcacbe67860f6f4ee67976b5da0ddc40ad9e562-dirty
     gitURL: github.com/0pens0/spring-metal.git
-    packageImage: index.docker.io/openso/spring-metal@sha256:34e8f1e3d6a01cc16f569ddbdfba20d6d9bcbd3da80b6b00e936569eef20e0d2
+    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:b1c62ecfc3e18ddeacea84968a1a5cd475b4cd4bbeba46e129257ec304a76481
     packageRefName: spring-metal.apps.local
-    packageVersion: 20240924.1038.3097
-    summary: git:5de40c6 @ 2024-09-24T10:38:03Z
-    version: 20240924.1038.3097
+    packageVersion: 20240925.913.53241
+    summary: git:4fcacbe @ 2024-09-25T09:13:53Z
+    version: 20240925.913.53241
   health:
     maxUnavailableReplicas: 10%
-  image: openso/spring-metal@sha256:ada9f1fccc55e357dad2c9ce4205cf9aa78bb0ed049a563599b54e7f97cd9f0b
-=======
-    buildTimestamp: "2024-09-24T10:46:38Z"
-    gitCommit: 4215dca1d365bb3753ba792c82842b9d09dee610-dirty
-    gitURL: github.com/0pens0/spring-metal.git
-    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:85eff4c4f1092b5096ef97d6bcc4763fe4d45428910751fe0ac07faab09f1896
-    packageRefName: spring-metal.apps.local
-    packageVersion: 20240924.1046.38475
-    summary: git:4215dca @ 2024-09-24T10:46:38Z
-    version: 20240924.1046.38475
-  health:
-    maxUnavailableReplicas: 10%
-  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:ada9f1fccc55e357dad2c9ce4205cf9aa78bb0ed049a563599b54e7f97cd9f0b
->>>>>>> 3e0024fe9148217bfa6fbe6871a3c7ce0e520ff8
+  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:82a9b803731e446a0148fa9fc9915f36fc6ec646b29a077078f7588744586181
   ports:
   - name: main
     port: 8080
@@ -66,11 +52,7 @@ spec:
   - apiGroup: data.packaging.carvel.dev
     for: kubernetes.delete
     kind: Package
-<<<<<<< HEAD
-    name: spring-metal.apps.local.20240924.1038.3097
-=======
-    name: spring-metal.apps.local.20240924.1046.38475
->>>>>>> 3e0024fe9148217bfa6fbe6871a3c7ce0e520ff8
+    name: spring-metal.apps.local.20240925.913.53241
   - for: kubernetes.delete
     kind: Secret
     name: spring-metal-values
