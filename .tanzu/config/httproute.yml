@@ -11,7 +11,7 @@ spec:
   - group: gateway.networking.k8s.io
     kind: Gateway
     name: default-gateway
-    sectionName: http-spring-metal-nongitops
+    sectionName: http-spring-metal-nongitops-demo
   rules:
   - backendRefs:
     - group: ""
