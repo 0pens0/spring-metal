@@ -10,8 +10,3 @@ spec:
   ports:
   - name: main
     port: 8080
-  nonSecretEnv:
-  - name: SPRING_AI_OPENAI_CHAT_OPTIONS_MODEL
-    value: openai-gpt-3.5-turbo
-  - name: SPRING_PROFILES_ACTIVE
-    value: llm,cloud,postgres

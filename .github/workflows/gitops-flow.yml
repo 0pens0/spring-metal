@@ -52,6 +52,7 @@ jobs:
           tree
           tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-metal-dev
           tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-metal-stage
+          tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-metal-ai-server
           cd spring-metal-gitops
           git add .
           git commit -m "push new version to stage"
