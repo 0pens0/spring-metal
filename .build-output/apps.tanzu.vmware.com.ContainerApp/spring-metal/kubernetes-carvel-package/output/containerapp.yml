@@ -8,22 +8,17 @@ metadata:
   name: spring-metal
 spec:
   content:
-    buildTimestamp: "2024-10-02T22:56:11Z"
-    gitCommit: 5af7b0544d747e20c4406a15b65585fa4974a39b-dirty
+    buildTimestamp: "2024-10-03T07:18:36Z"
+    gitCommit: 992f9366c064d3c1b3bec89ded275e0c279b15a4-dirty
     gitURL: github.com/0pens0/spring-metal.git
-    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:b2c87b4ddea76625d84866df56b12361fb6dbca5c018c99e17712bcd89cc3992
+    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:ad41ee19a97dc70a19e77c6b032a72ce39db2c501b4ed2117354f8d3950fdf5a
     packageRefName: spring-metal.apps.local
-    packageVersion: 20241002.2256.11909
-    summary: git:5af7b05 @ 2024-10-02T22:56:11Z
-    version: 20241002.2256.11909
+    packageVersion: 20241003.718.36652
+    summary: git:992f936 @ 2024-10-03T07:18:36Z
+    version: 20241003.718.36652
   health:
     maxUnavailableReplicas: 10%
-  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal:20241002.2256.11909@sha256:1531cf8d21911b5c93ab54d34b0aacf4890ba47c37578c646e03264793685ff8
-  nonSecretEnv:
-  - name: SPRING_AI_OPENAI_CHAT_OPTIONS_MODEL
-    value: openai-gpt-3.5-turbo
-  - name: SPRING_PROFILES_ACTIVE
-    value: llm,cloud,postgres
+  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal:20241003.718.36652@sha256:e498cfc06999d7a76f8b692215bd3c2bc02f1423d99c21ac613bdec818b20e7f
   ports:
   - name: main
     port: 8080
@@ -57,7 +52,7 @@ spec:
   - apiGroup: data.packaging.carvel.dev
     for: kubernetes.delete
     kind: Package
-    name: spring-metal.apps.local.20241002.2256.11909
+    name: spring-metal.apps.local.20241003.718.36652
   - for: kubernetes.delete
     kind: Secret
     name: spring-metal-values
