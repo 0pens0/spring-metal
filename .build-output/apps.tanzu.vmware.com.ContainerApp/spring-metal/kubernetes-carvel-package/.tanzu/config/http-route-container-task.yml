@@ -1,0 +1,11 @@
+apiVersion: apps.tanzu.vmware.com/v1
+kind: ContainerApp
+metadata:
+  creationTimestamp: null
+  name: add-http-route-task
+spec:
+  contact:
+    team: warroyo
+  build:
+    buildpacks: {}
+    path: ../..

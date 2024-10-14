@@ -8,17 +8,17 @@ metadata:
   name: spring-metal
 spec:
   content:
-    buildTimestamp: "2024-10-14T10:45:46Z"
-    gitCommit: acdb476958e358a1fdf8a47ecbd0ce76dc79dd3b-dirty
+    buildTimestamp: "2024-10-14T10:57:01Z"
+    gitCommit: 63c0da4c88c632d3fc84bc9ba79bef381867da7a-dirty
     gitURL: github.com/0pens0/spring-metal.git
-    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:695d003234191c318f823319626a454c3fd512b7e71b0f41f8fcc1f82f10fbab
+    packageImage: harbor.vmtanzu.com/openso-tap-apps/spring-metal@sha256:c62bd2e55d72ed6e0115018f95c8044bad329fc7a9dd0824e9e1d2fef8926702
     packageRefName: spring-metal.apps.local
-    packageVersion: 20241014.1045.46031
-    summary: git:acdb476 @ 2024-10-14T10:45:46Z
-    version: 20241014.1045.46031
+    packageVersion: 20241014.1057.1053
+    summary: git:63c0da4 @ 2024-10-14T10:57:01Z
+    version: 20241014.1057.1053
   health:
     maxUnavailableReplicas: 10%
-  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal:20241014.1045.46031@sha256:6918897398065f0382bed0605e23b294c3ce00fb2e9cdec5a4651164a447b9b6
+  image: harbor.vmtanzu.com/openso-tap-apps/spring-metal:20241014.1057.1053@sha256:6918897398065f0382bed0605e23b294c3ce00fb2e9cdec5a4651164a447b9b6
   ports:
   - name: main
     port: 8080
@@ -52,7 +52,7 @@ spec:
   - apiGroup: data.packaging.carvel.dev
     for: kubernetes.delete
     kind: Package
-    name: spring-metal.apps.local.20241014.1045.46031
+    name: spring-metal.apps.local.20241014.1057.1053
   - for: kubernetes.delete
     kind: Secret
     name: spring-metal-values
