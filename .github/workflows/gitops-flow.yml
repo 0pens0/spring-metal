@@ -33,7 +33,7 @@ jobs:
           TANZU_API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
           tanzu login --endpoint ${{ vars.API_ENDPOINT }}
-          tanzu build config --build-plan-source-type git --build-plan-source https://github.com/0pens0/spring-metal-gitops.git  --containerapp-registry openso/{name}
+          tanzu build config --build-plan-source-type git --build-plan-source https://github.com/0pens0/spring-metal-gitops.git  --containerapp-registry harbor.vmtanzu.com/openso/{name}
           echo ${{ vars.REGISTRY }}
           echo ${{ vars.REGISTRY_USER_NAME }}
           echo ${{ vars.BUILD_REGISTRY_CONF }}
