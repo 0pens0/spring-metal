@@ -15,9 +15,9 @@ spec:
     steps:
     - namedtask: tanzu-kubernetes-deployment
     - namedtask: tanzu-kubernetes-carvel-package
-    - name: add-route
-      containerTask:
-        image: openso/add-http-route-task
+#    - name: add-route
+#      containerTask:
+#        image: openso/add-http-route-task
   - description: create kubernetes yaml files for deploying on kubernetes
     name: kubernetes-plain
     steps:
