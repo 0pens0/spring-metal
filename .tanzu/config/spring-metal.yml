@@ -5,6 +5,9 @@ metadata:
   name: spring-metal
 spec:
   build:
+    nonSecretEnv:
+    - name: BP_JVM_VERSION
+      value: "17"
     buildpacks: {}
     path: ../..
   ports:

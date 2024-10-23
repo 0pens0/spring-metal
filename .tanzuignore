@@ -1,0 +1,43 @@
+# Operating System Files
+
+*.DS_Store
+Thumbs.db
+*~
+.#*
+#*
+*#
+
+
+# Build Files #
+
+bin
+target
+build/
+.gradle
+.mvn
+
+# Eclipse Project Files #
+
+.classpath
+.project
+.settings
+
+# IDEA Files #
+
+*.iml
+*.ipr
+*.iws
+*.idea
+.vscode
+
+# Spring Bootstrap artifacts
+
+dependency-reduced-pom.xml
+
+mem*.db
+
+README.html
+
+
+.tanzu/config/genai-external-service.yml
+.tanzu/config/postgres-external-service.yml
