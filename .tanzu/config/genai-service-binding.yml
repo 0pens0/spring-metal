@@ -1,7 +1,7 @@
 apiVersion: services.tanzu.vmware.com/v1
 kind: ServiceBinding
 metadata:
-  name: genai-chat-spring-metal
+  name: gitops-chat-spring-metal
   namespace: default
 spec:
   alias: ai-chat
@@ -9,7 +9,7 @@ spec:
     apiGroup: services.tanzu.vmware.com
     connectorName: main
     kind: PreProvisionedService
-    name: genai-chat
+    name: gitops-chat
   targetRef:
     apiGroup: apps.tanzu.vmware.com
     kind: ContainerApp
@@ -19,7 +19,7 @@ spec:
 apiVersion: services.tanzu.vmware.com/v1
 kind: ServiceBinding
 metadata:
-  name: genai-embed-spring-metal
+  name: gitops-embeddings-spring-metal
   namespace: default
 spec:
   alias: ai-embed
@@ -27,7 +27,7 @@ spec:
     apiGroup: services.tanzu.vmware.com
     connectorName: main
     kind: PreProvisionedService
-    name: genai-embed
+    name: gitops-embeddings
   targetRef:
     apiGroup: apps.tanzu.vmware.com
     kind: ContainerApp
