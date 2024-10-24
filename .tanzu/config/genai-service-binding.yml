@@ -1,0 +1,34 @@
+apiVersion: services.tanzu.vmware.com/v1
+kind: ServiceBinding
+metadata:
+  name: gitops-chat-spring-metal
+  namespace: default
+spec:
+  alias: ai-chat
+  serviceRef:
+    apiGroup: services.tanzu.vmware.com
+    connectorName: main
+    kind: PreProvisionedService
+    name: gitops-chat
+  targetRef:
+    apiGroup: apps.tanzu.vmware.com
+    kind: ContainerApp
+    name: spring-metal
+
+---
+apiVersion: services.tanzu.vmware.com/v1
+kind: ServiceBinding
+metadata:
+  name: gitops-embeddings-spring-metal
+  namespace: default
+spec:
+  alias: ai-embed
+  serviceRef:
+    apiGroup: services.tanzu.vmware.com
+    connectorName: main
+    kind: PreProvisionedService
+    name: gitops-embeddings
+  targetRef:
+    apiGroup: apps.tanzu.vmware.com
+    kind: ContainerApp
+    name: spring-metal

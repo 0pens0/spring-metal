@@ -1,0 +1,51 @@
+apiVersion: v1
+data:
+  uri: aHR0cHM6Ly9nZW5haS1wcm94eS5zeXMudGFzLnZtdGFuenUuY29tL2VjODRiM2IwLWQzZDQtNGViYi1iMmZhLTg0NGI5MzVmOTI3Ni9vcGVuYWk=
+  api-key: ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKbGJtUndiMmx1ZENJNkltVmpPRFJpTTJJd0xXUXpaRFF0TkdWaVlpMWlNbVpoTFRnME5HSTVNelZtT1RJM05pSXNJbXRsZVY5cFpDSTZJakZsTnpFMVpHSXdMVEF6TmpNdE5HUTBOaTA1WTJVMkxUSTJOalprT0RnMU0yUmpZeUlzSW1Oc2FXVnVkRjlwWkNJNklqTm1ORFF4TmpZMExXUmxaV1V0TkdVNVlpMWlZamxoTFRGbFpqaGxNelkzWXpWaE5TSXNJbk4xWWlJNklqTmhOalEyTlRNM0xUbGlPRFF0TkdVMFpDMDRNVE15TFdOa05qTmxPRFF3T0dFeFpDSXNJbWxoZENJNk1UY3lPVGMzTkRBMk1YMC42Mlg4MjNYYktTTGFKelAzOEI3WEdTa3RBbG5kdkdNeVJsd25TSHpCM0NV
+  model-name: Z3B0LTRvCg==
+  model-capabilities: Y2hhdCx2aXNpb24K
+  provider: dGFuenU= # tanzu
+  type: Z2VuYWk=  # genai
+kind: Secret
+metadata:
+  name: gitops-chat-creds
+type: servicebinding.io/ai
+
+---
+apiVersion: services.tanzu.vmware.com/v1
+kind: PreProvisionedService
+metadata:
+  name: gitops-chat
+spec:
+  bindingConnectors:
+  - name: main
+    description: Gen AI credentials
+    type: genai
+    secretRef:
+      name: gitops-chat-creds
+---
+apiVersion: v1
+data:
+  uri: aHR0cHM6Ly9nZW5haS1wcm94eS5zeXMudGFzLnZtdGFuenUuY29tLzNjMjdmYTg3LTU1YzktNGE5MS04NzNjLTk4ZDFjZTE5ZDZhMS9vcGVuYWk=
+  api-key: ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKbGJtUndiMmx1ZENJNklqTmpNamRtWVRnM0xUVTFZemt0TkdFNU1TMDROek5qTFRrNFpERmpaVEU1WkRaaE1TSXNJbXRsZVY5cFpDSTZJbVpqWlRaaVpUUTJMVGs1TXpJdE5EQXlOeTFpT1dFMkxXWTNPVGRqTURNME9UbG1aQ0lzSW1Oc2FXVnVkRjlwWkNJNklqWm1OalUyT1RWaExUYzBOVGd0TkdZMFlTMDRPR1l6TFdJek9ETmtNbU13TlROaU1pSXNJbk4xWWlJNkltRmtNVE5tWkRnekxUZ3pZV010TkRVNU1DMWhabVF4TFRJMk5qYzVPV1EwTUdJNU55SXNJbWxoZENJNk1UY3lPVGMzTXpRME5IMC5STk01UFRCYW8zaXVFNzBTYTdlUFlmaHkxaFNQWU9zM2VlVi03NFB2SVhj
+  model-name: dGV4dC1lbWJlZGRpbmctMy1zbWFsbAo=
+  model-capabilities: ZW1iZWRkaW5nCg==
+  provider: dGFuenU= # tanzu
+  type: Z2VuYWk=  # genai
+kind: Secret
+metadata:
+  name: gitops-embeddings-creds
+type: servicebinding.io/ai
+
+---
+apiVersion: services.tanzu.vmware.com/v1
+kind: PreProvisionedService
+metadata:
+  name: gitops-embeddings
+spec:
+  bindingConnectors:
+  - name: main
+    description: Gen AI credentials
+    type: genai
+    secretRef:
+      name: gitops-embeddings-creds
