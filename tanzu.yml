@@ -3,6 +3,7 @@ configuration:
   dev:
     paths:
     - .tanzu/config/
+  id: config-11ffa60b-7421-4e9b-b2a4-2041eeda0b65
   plain:
     paths:
     - .tanzu/config/
