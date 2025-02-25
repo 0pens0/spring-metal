@@ -47,6 +47,11 @@ jobs:
           cf push $APP_NAME -f runtime-configs/tpcf/manifest.yml --no-start
           
       - name: Bind
+        env:
+          APP_NAME: ${{vars.APP_NAME}}
+          PGVECTOR_SERVICE_NAME: ${{vars.PGVECTOR_SERVICE_NAME}}
+          CHAT_SERVICE_NAME: ${{vars.CHAT_SERVICE_NAME}}
+          EMBEDDINGS_SERVICE_NAME: ${{vars.EMBEDDINGS_SERVICE_NAME}}
         run: |
           echo $APP_NAME
           echo $PGVECTOR_SERVICE_NAME
