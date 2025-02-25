@@ -34,7 +34,7 @@ jobs:
       - name: Deploy
         run: |
           export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64  
-          mvn package
+          mvn clean package -DskipTests
           cf push
 
 
