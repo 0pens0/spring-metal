@@ -43,6 +43,8 @@ jobs:
 
 
       - name: Deploy
+        env:
+          APP_NAME: ${{vars.APP_NAME}}
         run: |
           cf push $APP_NAME -f runtime-configs/tpcf/manifest.yml --no-start
           
