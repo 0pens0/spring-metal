@@ -6,7 +6,8 @@ applications:
   path: ../../target/spring-metal-0.5.jar
   buildpack: java_buildpack_offline
   random-route: true
-
+  routes:
+  - route: gitops-spring-metal.apps.tas.vmtanzu.com
   env:
     JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
     SPRING_PROFILES_ACTIVE: http2
