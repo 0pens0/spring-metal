@@ -35,12 +35,19 @@ jobs:
 
       - name: Check out repository code
         uses: actions/checkout@v4
-      - name: Deploy
+
+      - name: Build
         run: |
           export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64  
           mvn clean package -DskipTests
+
+
+      - name: Deploy
+        run: |
           cf push $APP_NAME -f runtime-configs/tpcf/manifest.yml --no-start
           
+      - name: Bind
+        run: |
           echo $APP_NAME
           echo $PGVECTOR_SERVICE_NAME
           echo $CHAT_SERVICE_NAME
@@ -49,6 +56,9 @@ jobs:
           cf bind-service $APP_NAME $PGVECTOR_SERVICE_NAME
           cf bind-service $APP_NAME $CHAT_SERVICE_NAME
           cf bind-service $APP_NAME $EMBEDDINGS_SERVICE_NAME
+      
+      - name: Run
+        run: |
           cf start $APP_NAME
 
           
