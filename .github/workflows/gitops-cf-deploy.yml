@@ -40,6 +40,12 @@ jobs:
           export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64  
           mvn clean package -DskipTests
           cf push $APP_NAME -f runtime-configs/tpcf/manifest.yml --no-start
+          
+          echo $APP_NAME
+          echo $PGVECTOR_SERVICE_NAME
+          echo $CHAT_SERVICE_NAME
+          echo $EMBEDDINGS_SERVICE_NAME
+
           cf bind-service $APP_NAME $PGVECTOR_SERVICE_NAME
           cf bind-service $APP_NAME $CHAT_SERVICE_NAME
           cf bind-service $APP_NAME $EMBEDDINGS_SERVICE_NAME
