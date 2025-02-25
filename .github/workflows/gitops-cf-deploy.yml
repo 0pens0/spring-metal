@@ -8,7 +8,7 @@ jobs:
   gitops-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Install CLI
+      - name: Install CF CLI
         run: |
           wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
             echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
@@ -23,24 +23,18 @@ jobs:
           CF_API: ${{ vars.CF_API_ENDPOINT }}
           CF_ORG: ${{ vars.CF_ORG }}
           CF_SPACE: ${{ vars.CF_SPACE }}
-          APP_NAME: ${{vars.APP_NAME}}
-          PGVECTOR_SERVICE_NAME: ${{vars.PGVECTOR_SERVICE_NAME}}
-          CHAT_SERVICE_NAME: ${{vars.CHAT_SERVICE_NAME}}
-          EMBEDDINGS_SERVICE_NAME: ${{vars.EMBEDDINGS_SERVICE_NAME}}
-
         run: |
           cf api $CF_API --skip-ssl-validation
           cf auth admin ${{ secrets.CF_API_TOKEN }}
           cf target -o $CF_ORG -s $CF_SPACE
 
-      - name: Check out repository code
+      - name: Check out code
         uses: actions/checkout@v4
 
       - name: Build
         run: |
           export JAVA_HOME=/usr/lib/jvm/java-1.17.0-openjdk-amd64  
           mvn clean package -DskipTests
-
 
       - name: Deploy
         env:
