@@ -53,16 +53,13 @@ jobs:
           CHAT_SERVICE_NAME: ${{vars.CHAT_SERVICE_NAME}}
           EMBEDDINGS_SERVICE_NAME: ${{vars.EMBEDDINGS_SERVICE_NAME}}
         run: |
-          echo $APP_NAME
-          echo $PGVECTOR_SERVICE_NAME
-          echo $CHAT_SERVICE_NAME
-          echo $EMBEDDINGS_SERVICE_NAME
-
           cf bind-service $APP_NAME $PGVECTOR_SERVICE_NAME
           cf bind-service $APP_NAME $CHAT_SERVICE_NAME
           cf bind-service $APP_NAME $EMBEDDINGS_SERVICE_NAME
       
       - name: Run
+      env:
+        APP_NAME: ${{vars.APP_NAME}}
         run: |
           cf start $APP_NAME
 
