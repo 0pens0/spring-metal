@@ -24,6 +24,7 @@ jobs:
           tanzu version
           tanzu plugin install build
           tanzu plugin install resource
+          tanzu plugin install project
           
       - name: Check out repository code
         uses: actions/checkout@v4
@@ -34,6 +35,7 @@ jobs:
           ENDPOINT: ${{ vars.API_ENDPOINT || 'console.cloud.vmware.com' }}
         run: |
           tanzu login
+          tanzu project use tanzu-platform-vcf
           tanzu build config --build-plan-source-type=git --build-plan-source https://github.com/0pens0/spring-metal-gitops.git --containerapp-registry ${{ vars.BUILD_REGISTRY_CONF }}
           echo ${{ vars.REGISTRY }}
           echo ${{ vars.REGISTRY_USER_NAME }}
