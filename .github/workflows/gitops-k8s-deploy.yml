@@ -32,7 +32,7 @@ jobs:
         env:
           TANZU_API_TOKEN: ${{ secrets.API_TOKEN }}
         run: |
-          tanzu login --endpoint ${{ vars.API_ENDPOINT }}
+          tanzu login
           tanzu build config --build-plan-source-type=git --build-plan-source https://github.com/0pens0/spring-metal-gitops.git --containerapp-registry ${{ vars.BUILD_REGISTRY_CONF }}
           echo ${{ vars.REGISTRY }}
           echo ${{ vars.REGISTRY_USER_NAME }}
@@ -49,26 +49,12 @@ jobs:
           git config --global user.name "0pens0"
           git config --global user.email oren@penso.io
           git clone https://github.com/0pens0/spring-metal-gitops
-          tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-metal-dev
-          tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-metal-stage
+          tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-dev
+          tanzu promote --from-build .build-output/apps.tanzu.vmware.com.ContainerApp/spring-metal/kubernetes-carvel-package/output --to spring-metal-gitops/git-ops/spaces/spring-stage
           cd spring-metal-gitops
           git add .
           git commit -m "push new version to stage"
           git push
-      
-      - name: Deploy to TPCF
-        env:
-          CF_DOCKER_PASSWORD: ${{secrets.CF_DOCKER_PASSWORD}}
-        run: |
-          wget -q -O - https://packages.cloudfoundry.org/debian/cli.cloudfoundry.org.key | sudo apt-key add -
-          echo "deb https://packages.cloudfoundry.org/debian stable main" | sudo tee /etc/apt/sources.list.d/cloudfoundry-cli.list
-          sudo apt update
-          sudo apt install cf8-cli
-          cf api ${{ vars.CF_API_ENDPOINT }} --skip-ssl-validation
-          cf auth admin ${{ secrets.CF_API_TOKEN }}
-          cf target -o ${{ vars.CF_ORG }} -s ${{ vars.CF_SPACE }}
-          cf push spring-metal-gitops  --docker-image harbor.vmtanzu.com/openso-tap-apps/spring-metal --docker-username openso
-
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
