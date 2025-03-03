@@ -31,6 +31,7 @@ jobs:
       - name: Build
         env:
           TANZU_API_TOKEN: ${{ secrets.API_TOKEN }}
+          ENDPOINT: ${{ vars.API_ENDPOINT || 'console.cloud.vmware.com' }}
         run: |
           tanzu login
           tanzu build config --build-plan-source-type=git --build-plan-source https://github.com/0pens0/spring-metal-gitops.git --containerapp-registry ${{ vars.BUILD_REGISTRY_CONF }}
