@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} deploying
 on:
   push:
     branches:
-      - "test"
+      - "gitops"
 jobs:
   gitops-deploy:
     runs-on: ubuntu-latest
