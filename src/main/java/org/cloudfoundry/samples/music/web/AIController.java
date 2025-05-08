@@ -9,33 +9,19 @@ import org.cloudfoundry.samples.music.domain.Message;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import org.springframework.ai.document.Document;
-import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.*;
-
 
 @RestController
 @Profile("llm")
 public class AIController {
     private static final Logger logger = LoggerFactory.getLogger(AIController.class);
-    private MessageRetriever messageRetriever;
-    private VectorStore vectorStore;
-
-    public static String generateVectorDoc(Album album) {
-            return "artist: " + album.getArtist() + "\n" +
-            "title: " + album.getTitle() + "\n" +
-            "releaseYear: " + album.getReleaseYear() + "\n" +
-            "genre: " + album.getGenre() + "\n" +
-            "userReview: " + album.getUserReview() + "\n" +
-            "userScore: " + album.getUserScore() + "\n";
-    }
+    private final MessageRetriever messageRetriever;
 
     @Autowired
-    public AIController(VectorStore vectorStore, MessageRetriever messageRetriever) {
+    public AIController(MessageRetriever messageRetriever) {
         this.messageRetriever = messageRetriever;
-        this.vectorStore = vectorStore;
     }
     
     @RequestMapping(value = "/ai/rag", method = RequestMethod.POST)
@@ -44,17 +30,17 @@ public class AIController {
         logger.info("Getting Messages " + messages);
 
         String query = messages[messages.length - 1].getText();
-        String result = messageRetriever.retrieve(query);
+        // Generate a session ID based on the request
+        String sessionId = UUID.randomUUID().toString();
+        String result = messageRetriever.retrieve(sessionId, query);
 
-        return Map.of("text",result);
+        return Map.of("text", result);
     }
 
     @RequestMapping(value = "/ai/addDoc", method = RequestMethod.POST)
     public String addDoc(@RequestBody Album album) {
         String text = generateVectorDoc(album);
-        Document doc = new Document(album.getId(), text, new HashMap<>());
-        logger.info("Adding Album " + doc.toString());
-        this.vectorStore.add(List.of(doc));
+        this.vectorStore.add(List.of(text));
         return text;
     }
 

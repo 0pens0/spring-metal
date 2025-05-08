@@ -21,16 +21,9 @@ import java.util.Map;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.ai.chat.client.ChatClient;
-import org.springframework.ai.chat.client.advisor.QuestionAnswerAdvisor;
-import org.springframework.ai.chat.messages.Message;
-import org.springframework.ai.chat.model.ChatModel;
-import org.springframework.ai.chat.prompt.SystemPromptTemplate;
-import org.springframework.ai.document.Document;
-import org.springframework.ai.vectorstore.SearchRequest;
-import org.springframework.ai.vectorstore.VectorStore;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Component;
 
 /**
  *
@@ -38,50 +31,41 @@ import org.springframework.core.io.Resource;
  */
 public class MessageRetriever {
 
-	@Value("classpath:/prompts/system-qa.st")
-	private Resource systemPrompt;
-	private VectorStore vectorStore;
-	private ChatClient chatClient;
-
 	private static final Logger logger = LoggerFactory.getLogger(MessageRetriever.class);
 	
-	public MessageRetriever(VectorStore vectorStore, ChatModel chatModel) {
-		this.vectorStore = vectorStore;
+	@Value("classpath:/prompts/system-qa.st")
+	private Resource systemPrompt;
+	
+	private final ChatClient chatClient;
+	private final ContextManager contextManager;
+
+	public MessageRetriever(ChatModel chatModel, ContextManager contextManager) {
 		this.chatClient = ChatClient.builder(chatModel).build();
+		this.contextManager = contextManager;
 	}
 
-
-	public String retrieve(String message) {
-
-		return this.chatClient
-				.prompt()
-				.advisors(new QuestionAnswerAdvisor(this.vectorStore))
-				.user(message)
-				.call()
-				.content();
-
-		/* // hand rolled implementation
-		List<Document> relatedDocuments = this.vectorStore.similaritySearch(message);
-		logger.info("first doc retrieved " + relatedDocuments.get(0).toString());
-
-		Message systemMessage = getSystemMessage(relatedDocuments);
-		logger.info("system Message retrieved " + systemMessage.toString());
-
-		return this.chatClient.prompt()
-				.messages(systemMessage)
-				.user(message)
-				.call()
-				.content();
-		*/
-
-	}
-
-	private Message getSystemMessage(List<Document> relatedDocuments) {
-		String documents = relatedDocuments.stream().map(entry -> entry.getFormattedContent()).collect(Collectors.joining("\n"));
-	//	String documents = relatedDocuments.stream().map(entry -> entry.getContent()).collect(Collectors.joining("\n"));
+	public String retrieve(String sessionId, String message) {
+		// Get context from conversation history and vector store
+		List<String> context = contextManager.getContext(sessionId, message);
+		
+		// Create system message with context
+		String contextText = context.stream()
+			.collect(Collectors.joining("\n"));
+		
 		SystemPromptTemplate systemPromptTemplate = new SystemPromptTemplate(systemPrompt);
-		Message systemMessage = systemPromptTemplate.createMessage(Map.of("documents", documents));
-		return systemMessage;
-
+		Message systemMessage = systemPromptTemplate.createMessage(Map.of("documents", contextText));
+		
+		// Get response from chat model
+		String response = chatClient.prompt()
+			.messages(systemMessage)
+			.user(message)
+			.call()
+			.content();
+			
+		// Add to conversation history
+		contextManager.addToHistory(sessionId, message);
+		contextManager.addToHistory(sessionId, response);
+		
+		return response;
 	}
 }

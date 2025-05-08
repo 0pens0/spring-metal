@@ -6,6 +6,16 @@ spring:
         remove-existing-vector-store-table: true
     openai:
       api-key: "YOUR-KEY"
+    context:
+      provider:
+        type: memory
+        memory:
+          max-tokens: 2000
+          max-messages: 10
+        vector-store:
+          enabled: true
+          similarity-threshold: 0.7
+          max-results: 5
   jpa:
     generate-ddl: true
 ---

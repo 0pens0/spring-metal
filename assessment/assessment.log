@@ -1,0 +1,21 @@
+2025-04-14 07:50:09: *****************************************************************************
+2025-04-14 07:50:09: *                     Started SBOM Collection                               *
+2025-04-14 07:50:09: *****************************************************************************
+2025-04-14 07:50:10: Executing command: cd /Users/openso/git/spring-metal
+2025-04-14 07:50:11: Executing command: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/Users/openso/git/spring-metal/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.ai:spring-ai-openai-spring-boot-starter:jar is missing. @ line 81, column 17
+[ERROR] 'dependencies.dependency.version' for org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter:jar is missing. @ line 85, column 17
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.example:spring-metal:0.5 (/Users/openso/git/spring-metal/pom.xml) has 2 errors
+[ERROR]     'dependencies.dependency.version' for org.springframework.ai:spring-ai-openai-spring-boot-starter:jar is missing. @ line 81, column 17
+[ERROR]     'dependencies.dependency.version' for org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter:jar is missing. @ line 85, column 17
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+2025-04-14 07:50:15: Failed to run: mvn -q org.cyclonedx:cyclonedx-maven-plugin:2.7.11:makeAggregateBom -DoutputDirectory=/Users/openso/git/spring-metal/assessment/sbom -DoutputName=${project.artifactId} -DschemaVersion=1.4 -Dcyclonedx.skipAttach=true -Dcyclonedx.skipNotDeployed=false -DoutputFormat=json

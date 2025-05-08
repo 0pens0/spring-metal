@@ -1,28 +1,44 @@
-<div id="albums" ng-init="init()">
-    <div class="page-header">
-        <br>
-        <h1>Albums</h1>
-        <div>
-            <span> [ view as: </span>
-            <a href="" ng-click="setAlbumsView('grid')"><span class="glyphicon glyphicon-th"></span></a>
-            <a href="" ng-click="setAlbumsView('list')"><span class="glyphicon glyphicon-th-list"></span></a>
-            <span> | sort by: </span>
-            <a href="" ng-click="sortField='title'">title</a>
-            <a href="" ng-click="sortField='artist'">artist</a>
-            <a href="" ng-click="sortField='releaseYear'">year</a>
-            <a href="" ng-click="sortField='genre'">genre</a>
-            <a href="" ng-click="sortField='userReview'">review</a>
-            <a href="" ng-click="sortField='userScore'">score</a>
-            <a href="" ng-click="sortDescending=!sortDescending">
-                <span class="glyphicon" ng-class="{'glyphicon-chevron-up' : !sortDescending, 'glyphicon-chevron-down' : sortDescending}"></span>
-            </a>
-            <span> | </span>
-            <a href="" ng-click="addAlbum()"><span class="glyphicon glyphicon-plus"></span>add an album</a>
-            <span> ] </span>
+<div id="albums" ng-init="init()" class="container-fluid py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="h2 mb-0">Albums</h1>
+        <div class="d-flex gap-3 align-items-center">
+            <div class="btn-group" role="group" aria-label="View options">
+                <button type="button" class="btn btn-outline-primary" ng-click="setAlbumsView('grid')" title="Grid view">
+                    <i class="fas fa-th"></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary" ng-click="setAlbumsView('list')" title="List view">
+                    <i class="fas fa-list"></i>
+                </button>
+            </div>
+            
+            <div class="dropdown">
+                <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                    Sort by
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='title'">Title</a></li>
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='artist'">Artist</a></li>
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='releaseYear'">Year</a></li>
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='genre'">Genre</a></li>
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='userReview'">Review</a></li>
+                    <li><a class="dropdown-item" href="#" ng-click="sortField='userScore'">Score</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <a class="dropdown-item" href="#" ng-click="sortDescending=!sortDescending">
+                            <i class="fas" ng-class="{'fa-sort-up' : !sortDescending, 'fa-sort-down' : sortDescending}"></i>
+                            {{sortDescending ? 'Descending' : 'Ascending'}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="btn btn-primary" ng-click="addAlbum()">
+                <i class="fas fa-plus me-2"></i>Add Album
+            </button>
         </div>
     </div>
 
-    <div class="row">
+    <div class="row mb-4">
         <div ng-include src="'templates/status.html'"></div>
     </div>
 
@@ -44,7 +60,8 @@
                     "zIndex": "1",
                     "width": "470px",
                     "height": "60%",
-                    "fontSize": "16px"
+                    "fontSize": "16px",
+                    "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.1)"
                   }'
                   messageStyles='{
                     "default": {
@@ -56,7 +73,7 @@
                           "marginLeft": "0px", "color": "black"}},
                       "ai": {
                         "outerContainer": {
-                          "backgroundColor": "#F0F0F0", "borderTop": "1px solid rgba(0,0,0,.1)", "borderBottom": "1px solid rgba(0,0,0,.1)"
+                          "backgroundColor": "#F8F9FA", "borderTop": "1px solid rgba(0,0,0,.1)", "borderBottom": "1px solid rgba(0,0,0,.1)"
                         }
                       }
                     }
@@ -68,9 +85,9 @@
                   submitButtonStyles='{
                     "submit": {
                       "container": {
-                        "default": {"backgroundColor": "#FFB3C6"},
-                        "hover": {"backgroundColor": "#FB6F92"},
-                        "click": {"backgroundColor": "#FB6F92"}
+                        "default": {"backgroundColor": "#0d6efd"},
+                        "hover": {"backgroundColor": "#0b5ed7"},
+                        "click": {"backgroundColor": "#0a58ca"}
                       },
                       "svg": {
                         "content": "<?xml version=\"1.0\" ?> <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\"> <g> <path d=\"M21.66,12a2,2,0,0,1-1.14,1.81L5.87,20.75A2.08,2.08,0,0,1,5,21a2,2,0,0,1-1.82-2.82L5.46,13H11a1,1,0,0,0,0-2H5.46L3.18,5.87A2,2,0,0,1,5.86,3.25h0l14.65,6.94A2,2,0,0,1,21.66,12Z\"> </path> </g> </svg>",
