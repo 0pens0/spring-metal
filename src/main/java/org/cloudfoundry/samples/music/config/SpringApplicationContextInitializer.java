@@ -29,6 +29,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.HashSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -102,27 +103,19 @@ public class SpringApplicationContextInitializer implements ApplicationContextIn
                             StringUtils.collectionToCommaDelimitedString(profiles) + "]");
         }
 
-        List<CfService> llmServices = cfEnv.findServicesByTag("llm");
-        if (!llmServices.isEmpty()) {
-            logger.info("Setting service profile llm");
-            appEnvironment.addActiveProfile("llm");
-          
-        }
-
-        if (k8sServiceTypes.contains("genai")) {
-           logger.info("Setting service profile llm");
-           appEnvironment.addActiveProfile("llm");
-          
-        }
-
-        if (profiles.size() > 0) {
+        // If no database service is bound, use H2 in-memory database
+        if (profiles.isEmpty()) {
+            logger.info("No database service bound, using H2 in-memory database");
+            appEnvironment.addActiveProfile("h2");
+        } else {
             logger.info("Setting service profile " + profiles.get(0));
             appEnvironment.addActiveProfile(profiles.get(0));
         }
     }
 
     private void validateActiveProfiles(ConfigurableEnvironment appEnvironment) {
-        Set<String> validLocalProfiles = profileNameToServiceTags.keySet();
+        Set<String> validLocalProfiles = new HashSet<>(profileNameToServiceTags.keySet());
+        validLocalProfiles.add("h2"); // Add H2 as a valid profile
 
         List<String> serviceProfiles = Stream.of(appEnvironment.getActiveProfiles())
                 .filter(validLocalProfiles::contains)
@@ -138,13 +131,21 @@ public class SpringApplicationContextInitializer implements ApplicationContextIn
 
     private void excludeAutoConfiguration(ConfigurableEnvironment environment) {
         List<String> exclude = new ArrayList<>();
-        if (environment.acceptsProfiles(Profiles.of("redis"))) {
+        
+        // Default to H2 if no specific database profile is active
+        if (environment.acceptsProfiles(Profiles.of("h2")) || 
+            (!environment.acceptsProfiles(Profiles.of("redis", "mongodb", "postgres", "mysql", "oracle", "sqlserver")))) {
+            // Use H2 - exclude other database configurations
+            excludeMongoAutoConfiguration(exclude);
+            excludeRedisAutoConfiguration(exclude);
+        } else if (environment.acceptsProfiles(Profiles.of("redis"))) {
             excludeDataSourceAutoConfiguration(exclude);
             excludeMongoAutoConfiguration(exclude);
         } else if (environment.acceptsProfiles(Profiles.of("mongodb"))) {
             excludeDataSourceAutoConfiguration(exclude);
             excludeRedisAutoConfiguration(exclude);
         } else {
+            // For other database types (postgres, mysql, etc.), exclude non-database configs
             excludeMongoAutoConfiguration(exclude);
             excludeRedisAutoConfiguration(exclude);
         }
