@@ -1,8 +1,0 @@
-fullName:
-  managementClusterName: attached
-  provisionerName: attached
-  name: tanzu-platform-02
-meta:
-  description: Attaching cluster using tanzu cli
-spec:
-  clusterGroupName: spring-ai-cluster-group
