@@ -1,21 +1,21 @@
 spring:
-  ai:
-    vectorstore:
-      pgvector:
-        enabled: false
-    openai:
-      enabled: false
   jpa:
     generate-ddl: true
     hibernate:
       ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+        format_sql: true
   datasource:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
     username: sa
     password: 
   data:
-    mongodb:
-      enabled: false
-    redis:
+    jpa:
+      repositories:
+        enabled: true
+  h2:
+    console:
       enabled: false 
