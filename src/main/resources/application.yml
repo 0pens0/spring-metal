@@ -1,11 +1,4 @@
 spring:
-  ai:
-    vectorstore:
-      pgvector: 
-        initialize-schema: true
-        remove-existing-vector-store-table: true
-    openai:
-      api-key: "YOUR-KEY"
   jpa:
     generate-ddl: true
 ---
@@ -56,7 +49,3 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-#tanzu:
-#  governance:
-#    fips:
-#      exit-on-failure: true

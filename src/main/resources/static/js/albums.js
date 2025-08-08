@@ -37,14 +37,9 @@ function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
     }
 
     function saveAlbum(album) {
-        if (album.id != null) {
-          $http.post('/ai/deleteDoc', album.id);
-        }
         Albums.save(album,
             function (value, result) {
                 Status.success("Album saved");
-                $http.post('/ai/addDoc', value);
-
                 list();
             },
             function (result) {
@@ -93,7 +88,6 @@ function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
     };
 
     $scope.deleteAlbum = function (album) {
-        $http.post('/ai/deleteDoc', album.id);
         Album.delete({id: album.id},
             function () {
                 Status.success("Album deleted");
@@ -155,8 +149,6 @@ function AlbumEditorController($scope, $http, Albums, Status, EditorStatus) {
         Albums.save({}, album,
             function () {
                 Status.success("Album saved");
-                $http.post('/ai/deleteDoc', album.id);
-                $http.post('/ai/addDoc', album);
                 list();
             },
             function (result) {

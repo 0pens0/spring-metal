@@ -1,64 +1,111 @@
-# Demo of Tanzu platform and SpringAI
+# Spring Music Collection - Cloud Foundry Edition
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.2-brightgreen.svg)
-![AI LLM](https://img.shields.io/badge/AI-LLM-blue.svg)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.2-brightgreen.svg)
+![Cloud Foundry](https://img.shields.io/badge/Cloud%20Foundry-blue.svg)
 ![PostgreSQL](https://img.shields.io/badge/postgres-15.1-red.svg)
-![Tanzu](https://img.shields.io/badge/tanzu-platform-purple.svg)
 
-This repository contains artifacts necessary to build and run generative AI applications using Spring Boot and Tanzu Platform. The instructions below cover setup for both Cloud Foundry (cf) and Kubernetes (k8s) environments.
+This repository contains a Spring Boot music collection application optimized for Cloud Foundry deployment. The application provides a web interface for managing music albums with support for multiple database backends.
 
 ## Architecture
 
-![Alt text](https://github.com/0pens0/spring-metal/blob/main/image.png?raw=true "Spring-metal AI topology")
+The application is built with Spring Boot 3.3.2 and supports:
+- Multiple database backends (PostgreSQL, MySQL, H2, Redis, MongoDB)
+- Cloud Foundry service binding
+- RESTful API for album management
+- Modern web interface with AngularJS and Bootstrap
 
 ## Prerequisites
-- Ensure you have the latest version of the Tanzu CLI installed.
-- Access to a Route53 domain and necessary AWS permissions.
-- Update the parameters in ```demo.sh``` according to your TPCF and TPK8s configurations
-- Follow the getting started guides for TPK8s
+- Cloud Foundry CLI installed
+- Access to a Cloud Foundry environment
+- Java 17 or later
+- Maven 3.6+
 
-## Running the Demo
+## Running the Application
 
-#### Preperations
-
+### Local Development
 
 ```bash
-cf login -u admin -p YOUR_CF_ADMIN_PASSWORD
-cf target -o YOUR_ORG -s YOUR_SPACE # this space must have access to postgres and genai services
-./demo.sh prepare-cf
-./demo.sh prepare-k8s
+# Build the application
+./mvnw clean package
+
+# Run locally
+java -jar target/spring-metal-0.6.jar
 ```
 
-#### Deployment
+### Cloud Foundry Deployment
 
-- cf runtime
 ```bash
-cf login -u admin -p YOUR_CF_ADMIN_PASSWORD
+# Login to Cloud Foundry
+cf login -u YOUR_USERNAME -p YOUR_PASSWORD
 cf target -o YOUR_ORG -s YOUR_SPACE
-./demo.sh deploy-cf
+
+# Build the application
+./mvnw clean package
+
+# Deploy to Cloud Foundry
+cf push
 ```
-- k8s runtime  
+
+The application will be deployed with:
+- 1GB memory allocation
+- Java 17 runtime
+- HTTP/2 enabled
+- Random route assignment
+
+### Database Configuration
+
+The application supports multiple database backends:
+
+#### PostgreSQL
 ```bash
-tanzu login
-tanzu context use <my-context>
-tanzu project use <my-project>
-tanzu space use <my-space>
-tanzu deploy
+# Create PostgreSQL service
+cf create-service postgresql-db development postgres-db
+
+# Bind to application
+cf bind-service spring-metal postgres-db
 ```
-note: AI and db external services are bound as part of the deployment. You can bind to on-cluster services by using ```tanzu service create```
 
-### Cleanup
-
+#### MySQL
 ```bash
-./demo.sh cleanup-k8s #removes app and services from TPK8s space, but keep the space and its ingress/egress
-./demo.sh cleanup-cf #removes app and services from TPCF space
+# Create MySQL service
+cf create-service mysql-db development mysql-db
+
+# Bind to application
+cf bind-service spring-metal mysql-db
 ```
 
-### Troubleshooting
+#### Redis
+```bash
+# Create Redis service
+cf create-service redis-db development redis-db
 
-#### Issue: Application deployment fails, or stuck in 'deploying'
-- **Solution:** In AppsMan->YOUR_SPACE->services->vector db instance->settings: manually enter ```"svc_gw_enable":true``` in the json area and redeploy
+# Bind to application
+cf bind-service spring-metal redis-db
+```
 
+## Application Features
+
+- **Album Management**: Add, edit, delete, and view music albums
+- **Search and Sort**: Sort albums by title, artist, year, genre, review, or score
+- **Multiple Views**: Grid and list view options
+- **Responsive Design**: Works on desktop and mobile devices
+- **Cloud Native**: Designed for Cloud Foundry deployment with service binding
+
+## API Endpoints
+
+- `GET /albums` - List all albums
+- `POST /albums` - Create a new album
+- `PUT /albums/{id}` - Update an album
+- `DELETE /albums/{id}` - Delete an album
+- `GET /appinfo` - Application information and profiles
+- `GET /request` - Request information
+
+## Configuration
+
+The application uses Spring Boot's auto-configuration and supports:
+- Database auto-detection via Cloud Foundry service binding
+- Profile-based configuration (`http2`, `mysql`, `postgresql`)
+- Environment-based configuration
 
 ## Contributing
 Contributions to this project are welcome. Please ensure to follow the existing coding style and add unit tests for any new or changed functionality.
