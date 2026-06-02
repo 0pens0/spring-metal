@@ -29,4 +29,28 @@
     <div class="row multi-columns-row">
         <div ng-include src="albumsView"></div>
     </div>
+
+    <!-- Chat widget (toggle via Assistant button) -->
+    <div ng-show="$root.chatOpen">
+        <deep-chat id="music-ai"
+            introMessage="Hi! I'm your assistant. Currently no chat model is connected."
+            request='{
+                "url": "/ai/rag",
+                "method": "POST",
+                "headers": {"Content-Type": "application/json"}
+            }'
+            containerStyle='{
+                "borderRadius": "10px",
+                "position": "fixed",
+                "bottom": "80px",
+                "right": "20px",
+                "zIndex": "1000",
+                "boxShadow": "0 8px 24px rgba(0,0,0,0.2)",
+                "width": "420px",
+                "height": "60%",
+                "fontSize": "16px",
+                "backgroundColor": "white"
+            }'>
+        </deep-chat>
+    </div>
 </div>

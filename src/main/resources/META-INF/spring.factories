@@ -1,2 +1,2 @@
-# Binding Properties Factories
-# Removed AI bindings for Cloud Foundry only deployment
+org.springframework.cloud.bindings.boot.BindingsPropertiesProcessor=\
+  org.springframework.ai.bindings.TanzuBindingsPropertiesProcessor

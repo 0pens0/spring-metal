@@ -1,0 +1,87 @@
+Application Advisor CLI Version: 1.5.2
+com.vmware.tanzu.spring.advisor.exceptions.ControlledException: com.vmware.tanzu.spring.advisor.exceptions.ControlledException: Could not process project dependencies
+	at com.vmware.tanzu.spring.advisor.proc.CLITimerRunner.run(CLITimerRunner.java:48)
+	at com.vmware.tanzu.spring.advisor.proc.CLITimerRunner.run(CLITimerRunner.java:20)
+	at com.vmware.tanzu.spring.advisor.buildconfig.BuildConfigGeneration.getDependencies(BuildConfigGeneration.java:130)
+	at com.vmware.tanzu.spring.advisor.buildconfig.BuildConfigGeneration.generateBuildConfig(BuildConfigGeneration.java:71)
+	at com.vmware.tanzu.spring.advisor.buildconfig.BuildConfigGeneration.generateBuildConfig(BuildConfigGeneration.java:53)
+	at com.vmware.tanzu.spring.advisor.cli.buildconfig.AbstractGenerateBuildConfigCommand.buildConfigDetection(AbstractGenerateBuildConfigCommand.java:32)
+	at com.vmware.tanzu.spring.advisor.cli.buildconfig.BuildConfigurationPublishCommand.runCommand(BuildConfigurationPublishCommand.java:57)
+	at com.vmware.tanzu.spring.advisor.cli.support.Command.run(Command.java:16)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:2045)
+	at picocli.CommandLine.access$1500(CommandLine.java:148)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2469)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2461)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2423)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2277)
+	at picocli.CommandLine$RunLast.execute(CommandLine.java:2425)
+	at picocli.CommandLine.execute(CommandLine.java:2174)
+	at com.vmware.tanzu.spring.advisor.cli.support.CommandLineApplicationRunner.run(CommandLineApplicationRunner.java:29)
+	at org.springframework.boot.SpringApplication.lambda$callRunner$5(SpringApplication.java:788)
+	at org.springframework.util.function.ThrowingConsumer$1.acceptWithException(ThrowingConsumer.java:82)
+	at org.springframework.util.function.ThrowingConsumer.accept(ThrowingConsumer.java:60)
+	at org.springframework.util.function.ThrowingConsumer$1.accept(ThrowingConsumer.java:86)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:796)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:787)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:772)
+	at java.base@24.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:186)
+	at java.base@24.0.2/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base@24.0.2/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:571)
+	at java.base@24.0.2/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base@24.0.2/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:153)
+	at java.base@24.0.2/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:176)
+	at java.base@24.0.2/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base@24.0.2/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:636)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:772)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.vmware.tanzu.spring.advisor.cli.CommandLineApplication.main(CommandLineApplication.java:35)
+	at java.base@24.0.2/java.lang.invoke.LambdaForm$DMH/sa346b79c.invokeStaticInit(LambdaForm$DMH)
+Caused by: java.util.concurrent.ExecutionException: com.vmware.tanzu.spring.advisor.exceptions.ControlledException: Could not process project dependencies
+	at java.base@24.0.2/java.util.concurrent.CompletableFuture.wrapInExecutionException(CompletableFuture.java:347)
+	at java.base@24.0.2/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:442)
+	at java.base@24.0.2/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2119)
+	at com.vmware.tanzu.spring.advisor.proc.CLITimerRunner.run(CLITimerRunner.java:37)
+	... 37 more
+Caused by: com.vmware.tanzu.spring.advisor.exceptions.ControlledException: Could not process project dependencies
+	at com.vmware.tanzu.spring.advisor.buildconfig.sbom.SBomGenerator.getDependencies(SBomGenerator.java:65)
+	at com.vmware.tanzu.spring.advisor.buildconfig.BuildConfigGeneration.lambda$getDependencies$0(BuildConfigGeneration.java:131)
+	at java.base@24.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1814)
+	at java.base@24.0.2/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1806)
+	at java.base@24.0.2/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base@24.0.2/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1394)
+	at java.base@24.0.2/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1970)
+	at java.base@24.0.2/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:832)
+	at org.graalvm.nativeimage.builder/com.oracle.svm.core.thread.PlatformThreads.threadStartRoutine(PlatformThreads.java:808)
+Caused by: com.vmware.tanzu.spring.advisor.proc.ProcessRunner$ProcessFailureException: Command: [/Users/orenpenso/git/spring-metal/mvnw -B org.cyclonedx:cyclonedx-maven-plugin:2.8.0:makeAggregateBom -DschemaVersion=1.5 -Dcyclonedx.skipNotDeployed=false -DincludeLicenseText=false -Dorg.slf4j.simpleLogger.logFile=System.err]
+
+Error:
+
+[INFO] Scanning for projects...
+[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+[ERROR] 'dependencies.dependency.version' for org.springframework.ai:spring-ai-openai-spring-boot-starter:jar is missing. @ line 69, column 17
+[ERROR] 'dependencies.dependency.version' for org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter:jar is missing. @ line 73, column 17
+ @ 
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.example:spring-metal:0.6 (/Users/orenpenso/git/spring-metal/pom.xml) has 2 errors
+[ERROR]     'dependencies.dependency.version' for org.springframework.ai:spring-ai-openai-spring-boot-starter:jar is missing. @ line 69, column 17
+[ERROR]     'dependencies.dependency.version' for org.springframework.ai:spring-ai-pgvector-store-spring-boot-starter:jar is missing. @ line 73, column 17
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+
+
+Output:
+
+NA
+
+	at com.vmware.tanzu.spring.advisor.proc.ProcessRunner.informAboutErrors(ProcessRunner.java:119)
+	at com.vmware.tanzu.spring.advisor.proc.ProcessRunner.run(ProcessRunner.java:53)
+	at com.vmware.tanzu.spring.advisor.buildconfig.sbom.SBomGenerator.getDependencies(SBomGenerator.java:39)
+	... 9 more

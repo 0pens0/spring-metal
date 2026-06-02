@@ -1,0 +1,1108 @@
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: /Users/orenpenso/.m2/wrapper/dists/apache-maven-3.8.4-bin/52ccbt68d252mdldqsfsn03jlf/apache-maven-3.8.4
+Java version: 21.0.7, vendor: Eclipse Adoptium, runtime: /Users/orenpenso/.sdkman/candidates/java/21.0.7-tem
+Default locale: en_US, platform encoding: UTF-8
+OS name: "mac os x", version: "15.5", arch: "aarch64", family: "mac"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: plain
+[DEBUG] Reading global settings from /Users/orenpenso/.m2/wrapper/dists/apache-maven-3.8.4-bin/52ccbt68d252mdldqsfsn03jlf/apache-maven-3.8.4/conf/settings.xml
+[DEBUG] Reading user settings from /Users/orenpenso/.m2/settings.xml
+[DEBUG] Reading global toolchains from /Users/orenpenso/.m2/wrapper/dists/apache-maven-3.8.4-bin/52ccbt68d252mdldqsfsn03jlf/apache-maven-3.8.4/conf/toolchains.xml
+[DEBUG] Reading user toolchains from /Users/orenpenso/.m2/toolchains.xml
+[DEBUG] Using local repository at /Users/orenpenso/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for /Users/orenpenso/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project com.example:spring-metal:jar:0.6: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-starter-parent:pom:3.3.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] Extension realms for project org.springframework.boot:spring-boot-dependencies:pom:3.3.2: (none)
+[DEBUG] Looking up lifecycle mappings for packaging pom from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: com.example:spring-metal:jar:0.6
+[DEBUG] Tasks:   [org.openrewrite.maven:rewrite-maven-plugin:6.8.1:runNoFork]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] ----------------------< com.example:spring-metal >----------------------
+[INFO] Building spring-metal 0.6
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       com.example:spring-metal:0.6
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases), broadcom-artifactory (https://packages.broadcom.com/artifactory/spring-enterprise/, default, releases), maven-central (https://repo.maven.apache.org/maven2, default, releases+snapshots), spring-milestone (https://repo.spring.io/milestone, default, releases+snapshots), spring-snapshot (https://repo.spring.io/snapshot, default, releases+snapshots)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases), broadcom-artifactory (https://packages.broadcom.com/artifactory/spring-enterprise/, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.openrewrite.maven:rewrite-maven-plugin:6.8.1:runNoFork (default-cli)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <activeRecipes>${rewrite.activeRecipes}</activeRecipes>
+  <activeStyles>${rewrite.activeStyles}</activeStyles>
+  <additionalPlainTextMasks>${rewrite.additionalPlainTextMasks}</additionalPlainTextMasks>
+  <checkstyleConfigFile>${rewrite.checkstyleConfigFile}</checkstyleConfigFile>
+  <checkstyleDetectionEnabled default-value="true">${rewrite.checkstyleDetectionEnabled}</checkstyleDetectionEnabled>
+  <configLocation default-value="${maven.multiModuleProjectDirectory}/rewrite.yml">${rewrite.configLocation}</configLocation>
+  <exclusions>${rewrite.exclusions}</exclusions>
+  <exportDatatables default-value="false">${rewrite.exportDatatables}</exportDatatables>
+  <failOnInvalidActiveRecipes default-value="false">${rewrite.failOnInvalidActiveRecipes}</failOnInvalidActiveRecipes>
+  <mavenSession default-value="${session}"/>
+  <options>${rewrite.options}</options>
+  <plainTextMasks>${rewrite.plainTextMasks}</plainTextMasks>
+  <pluginDescriptor default-value="${plugin}"/>
+  <pomCacheDirectory>${rewrite.pomCacheDirectory}</pomCacheDirectory>
+  <pomCacheEnabled default-value="true">${rewrite.pomCacheEnabled}</pomCacheEnabled>
+  <project default-value="${project}"/>
+  <recipeArtifactCoordinates>${rewrite.recipeArtifactCoordinates}</recipeArtifactCoordinates>
+  <recipeChangeLogLevel default-value="WARN">${rewrite.recipeChangeLogLevel}</recipeChangeLogLevel>
+  <resolvePropertiesInYaml default-value="true">${rewrite.resolvePropertiesInYaml}</resolvePropertiesInYaml>
+  <rewriteSkip default-value="false">${rewrite.skip}</rewriteSkip>
+  <runPerSubmodule default-value="false">${rewrite.runPerSubmodule}</runPerSubmodule>
+  <sizeThresholdMb default-value="10">${sizeThresholdMb}</sizeThresholdMb>
+  <skipMavenParsing default-value="false">${skipMavenParsing}</skipMavenParsing>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-snapshots (http://oss.sonatype.org/content/repositories/vaadin-snapshots/).
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for vaadin-releases (http://oss.sonatype.org/content/repositories/vaadin-releases/).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=483083, ConflictMarker.markTime=197625, ConflictMarker.nodeCount=291, ConflictIdSorter.graphTime=262875, ConflictIdSorter.topsortTime=115917, ConflictIdSorter.conflictIdCount=141, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=5461250, ConflictResolver.conflictItemCount=287, DefaultDependencyCollector.collectTime=221661542, DefaultDependencyCollector.transformTime=7173917}
+[DEBUG] com.example:spring-metal:jar:0.6
+[DEBUG]    org.springframework.boot:spring-boot-starter-web:jar:3.3.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-json:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.17.2:compile (version managed from 2.17.2)
+[DEBUG]             com.fasterxml.jackson.core:jackson-annotations:jar:2.17.2:compile (version managed from 2.17.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.2:compile (version managed from 2.17.2)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.2:compile (version managed from 2.17.2)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.2:compile (version managed from 2.17.2)
+[DEBUG]       org.springframework.boot:spring-boot-starter-tomcat:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-core:jar:10.1.26:compile (version managed from 10.1.26)
+[DEBUG]          org.apache.tomcat.embed:tomcat-embed-websocket:jar:10.1.26:compile (version managed from 10.1.26)
+[DEBUG]       org.springframework:spring-web:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]          org.springframework:spring-beans:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]       org.springframework:spring-webmvc:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]          org.springframework:spring-aop:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]          org.springframework:spring-context:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]          org.springframework:spring-expression:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter-actuator:jar:3.3.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-actuator-autoconfigure:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.springframework.boot:spring-boot-actuator:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]       io.micrometer:micrometer-observation:jar:1.13.2:compile (version managed from 1.13.2)
+[DEBUG]          io.micrometer:micrometer-commons:jar:1.13.2:compile (version managed from 1.13.2)
+[DEBUG]       io.micrometer:micrometer-jakarta9:jar:1.13.2:compile (version managed from 1.13.2)
+[DEBUG]          io.micrometer:micrometer-core:jar:1.13.2:compile (version managed from 1.13.2)
+[DEBUG]             org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime
+[DEBUG]             org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-jpa:jar:3.3.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-starter-aop:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.aspectj:aspectjweaver:jar:1.9.22.1:compile (version managed from 1.9.22.1)
+[DEBUG]       org.springframework.boot:spring-boot-starter-jdbc:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          com.zaxxer:HikariCP:jar:5.1.0:compile (version managed from 5.1.0)
+[DEBUG]          org.springframework:spring-jdbc:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]       org.hibernate.orm:hibernate-core:jar:6.5.2.Final:compile (version managed from 6.5.2.Final)
+[DEBUG]          jakarta.persistence:jakarta.persistence-api:jar:3.1.0:compile (version managed from 3.1.0)
+[DEBUG]          jakarta.transaction:jakarta.transaction-api:jar:2.0.1:compile (version managed from 2.0.1)
+[DEBUG]          org.jboss.logging:jboss-logging:jar:3.5.3.Final:compile (version managed from 3.5.0.Final)
+[DEBUG]          org.hibernate.common:hibernate-commons-annotations:jar:6.0.6.Final:runtime
+[DEBUG]          io.smallrye:jandex:jar:3.1.2:runtime
+[DEBUG]          com.fasterxml:classmate:jar:1.7.0:compile (version managed from 1.5.1)
+[DEBUG]          net.bytebuddy:byte-buddy:jar:1.14.18:runtime (version managed from 1.14.15)
+[DEBUG]          org.glassfish.jaxb:jaxb-runtime:jar:4.0.5:runtime (version managed from 4.0.2)
+[DEBUG]             org.glassfish.jaxb:jaxb-core:jar:4.0.5:runtime (version managed from 4.0.5)
+[DEBUG]                org.eclipse.angus:angus-activation:jar:2.0.2:runtime (version managed from 2.0.2)
+[DEBUG]                org.glassfish.jaxb:txw2:jar:4.0.5:runtime (version managed from 4.0.5)
+[DEBUG]                com.sun.istack:istack-commons-runtime:jar:4.1.2:runtime (version managed from 4.1.2)
+[DEBUG]          jakarta.inject:jakarta.inject-api:jar:2.0.1:runtime (version managed from 2.0.1)
+[DEBUG]          org.antlr:antlr4-runtime:jar:4.13.0:compile
+[DEBUG]       org.springframework.data:spring-data-jpa:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.springframework.data:spring-data-commons:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.springframework:spring-orm:jar:6.1.11:compile (version managed from 6.1.9)
+[DEBUG]          org.springframework:spring-tx:jar:6.1.11:compile (version managed from 6.1.9)
+[DEBUG]       org.springframework:spring-aspects:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-mongodb:jar:3.3.2:compile
+[DEBUG]       org.mongodb:mongodb-driver-sync:jar:5.0.1:compile (version managed from 5.0.1)
+[DEBUG]          org.mongodb:bson:jar:5.0.1:compile (version managed from 5.0.1)
+[DEBUG]          org.mongodb:mongodb-driver-core:jar:5.0.1:compile (version managed from 5.0.1)
+[DEBUG]             org.mongodb:bson-record-codec:jar:5.0.1:runtime (version managed from 5.0.1)
+[DEBUG]       org.springframework.data:spring-data-mongodb:jar:4.3.2:compile (version managed from 4.3.2)
+[DEBUG]    org.springframework.boot:spring-boot-starter-data-redis:jar:3.3.2:compile
+[DEBUG]       io.lettuce:lettuce-core:jar:6.3.2.RELEASE:compile (version managed from 6.3.2.RELEASE)
+[DEBUG]          io.netty:netty-common:jar:4.1.111.Final:compile (version managed from 4.1.107.Final)
+[DEBUG]          io.netty:netty-handler:jar:4.1.111.Final:compile (version managed from 4.1.107.Final)
+[DEBUG]             io.netty:netty-resolver:jar:4.1.111.Final:compile (version managed from 4.1.111.Final)
+[DEBUG]             io.netty:netty-buffer:jar:4.1.111.Final:compile (version managed from 4.1.111.Final)
+[DEBUG]             io.netty:netty-transport-native-unix-common:jar:4.1.111.Final:compile (version managed from 4.1.111.Final)
+[DEBUG]             io.netty:netty-codec:jar:4.1.111.Final:compile (version managed from 4.1.111.Final)
+[DEBUG]          io.netty:netty-transport:jar:4.1.111.Final:compile (version managed from 4.1.107.Final)
+[DEBUG]          io.projectreactor:reactor-core:jar:3.6.8:compile (version managed from 3.6.4)
+[DEBUG]             org.reactivestreams:reactive-streams:jar:1.0.4:compile (version managed from 1.0.4)
+[DEBUG]       org.springframework.data:spring-data-redis:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.springframework.data:spring-data-keyvalue:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          org.springframework:spring-oxm:jar:6.1.11:compile (version managed from 6.1.9)
+[DEBUG]          org.springframework:spring-context-support:jar:6.1.11:compile (version managed from 6.1.9)
+[DEBUG]    org.springframework.boot:spring-boot-starter-validation:jar:3.3.2:compile
+[DEBUG]       org.apache.tomcat.embed:tomcat-embed-el:jar:10.1.26:compile (version managed from 10.1.26)
+[DEBUG]       org.hibernate.validator:hibernate-validator:jar:8.0.1.Final:compile (version managed from 8.0.1.Final)
+[DEBUG]          jakarta.validation:jakarta.validation-api:jar:3.0.2:compile (version managed from 3.0.2)
+[DEBUG]    org.webjars:webjars-locator-core:jar:0.58:compile
+[DEBUG]       org.slf4j:slf4j-api:jar:2.0.13:compile (version managed from 2.0.12)
+[DEBUG]       io.github.classgraph:classgraph:jar:4.8.168:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-core:jar:2.17.2:compile (version managed from 2.15.2)
+[DEBUG]    io.pivotal.cfenv:java-cfenv-all:jar:3.3.0:compile
+[DEBUG]       org.springframework.boot:spring-boot:jar:3.3.2:compile (version managed from 3.3.5)
+[DEBUG]       io.pivotal.cfenv:java-cfenv-boot-pivotal-scs:jar:3.3.0:compile
+[DEBUG]          io.pivotal.cfenv:java-cfenv-boot:jar:3.3.0:compile
+[DEBUG]             io.pivotal.cfenv:java-cfenv:jar:3.3.0:compile
+[DEBUG]                com.cedarsoftware:json-io:jar:4.30.0:compile
+[DEBUG]                   com.cedarsoftware:java-util:jar:2.17.0:compile
+[DEBUG]             io.pivotal.cfenv:java-cfenv-jdbc:jar:3.3.0:compile
+[DEBUG]       io.pivotal.cfenv:java-cfenv-boot-pivotal-sso:jar:3.3.0:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter:jar:3.3.2:compile
+[DEBUG]       org.springframework.boot:spring-boot-autoconfigure:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]       org.springframework.boot:spring-boot-starter-logging:jar:3.3.2:compile (version managed from 3.3.2)
+[DEBUG]          ch.qos.logback:logback-classic:jar:1.5.6:compile (version managed from 1.5.6)
+[DEBUG]             ch.qos.logback:logback-core:jar:1.5.6:compile (version managed from 1.5.6)
+[DEBUG]          org.apache.logging.log4j:log4j-to-slf4j:jar:2.23.1:compile (version managed from 2.23.1)
+[DEBUG]             org.apache.logging.log4j:log4j-api:jar:2.23.1:compile (version managed from 2.23.1)
+[DEBUG]          org.slf4j:jul-to-slf4j:jar:2.0.13:compile (version managed from 2.0.13)
+[DEBUG]       jakarta.annotation:jakarta.annotation-api:jar:2.1.1:compile (version managed from 2.1.1)
+[DEBUG]       org.springframework:spring-core:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]          org.springframework:spring-jcl:jar:6.1.11:compile (version managed from 6.1.11)
+[DEBUG]       org.yaml:snakeyaml:jar:2.2:compile (version managed from 2.2)
+[DEBUG]    org.apache.commons:commons-pool2:jar:2.12.0:runtime
+[DEBUG]    com.h2database:h2:jar:2.2.224:runtime
+[DEBUG]    com.mysql:mysql-connector-j:jar:8.3.0:runtime (exclusions managed from [com.google.protobuf:protobuf-java:*:*])
+[DEBUG]    org.postgresql:postgresql:jar:42.7.3:runtime
+[DEBUG]       org.checkerframework:checker-qual:jar:3.42.0:runtime
+[DEBUG]    com.microsoft.sqlserver:mssql-jdbc:jar:12.6.3.jre11:runtime
+[DEBUG]    org.webjars:bootstrap:jar:3.1.1:compile
+[DEBUG]    org.webjars:angularjs:jar:1.2.16:compile
+[DEBUG]    org.webjars:angular-ui:jar:0.4.0-2:compile
+[DEBUG]    org.webjars:angular-ui-bootstrap:jar:0.10.0-1:compile
+[DEBUG]    org.webjars:jquery:jar:2.1.0-2:compile
+[DEBUG]    org.springframework.boot:spring-boot-starter-test:jar:3.3.2:test
+[DEBUG]       org.springframework.boot:spring-boot-test:jar:3.3.2:test (version managed from 3.3.2)
+[DEBUG]       org.springframework.boot:spring-boot-test-autoconfigure:jar:3.3.2:test (version managed from 3.3.2)
+[DEBUG]       com.jayway.jsonpath:json-path:jar:2.9.0:test (version managed from 2.9.0)
+[DEBUG]       jakarta.xml.bind:jakarta.xml.bind-api:jar:4.0.2:runtime (version managed from 4.0.2)
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:2.1.3:runtime (version managed from 2.1.3)
+[DEBUG]       net.minidev:json-smart:jar:2.5.1:test (version managed from 2.5.1)
+[DEBUG]          net.minidev:accessors-smart:jar:2.5.1:test
+[DEBUG]             org.ow2.asm:asm:jar:9.6:test
+[DEBUG]       org.assertj:assertj-core:jar:3.25.3:test (version managed from 3.25.3)
+[DEBUG]       org.hamcrest:hamcrest:jar:2.2:test (version managed from 2.2)
+[DEBUG]       org.junit.jupiter:junit-jupiter:jar:5.10.3:test (version managed from 5.10.3)
+[DEBUG]          org.junit.jupiter:junit-jupiter-api:jar:5.10.3:test (version managed from 5.10.3)
+[DEBUG]             org.opentest4j:opentest4j:jar:1.3.0:test
+[DEBUG]             org.junit.platform:junit-platform-commons:jar:1.10.3:test (version managed from 1.10.3)
+[DEBUG]             org.apiguardian:apiguardian-api:jar:1.1.2:test
+[DEBUG]          org.junit.jupiter:junit-jupiter-params:jar:5.10.3:test (version managed from 5.10.3)
+[DEBUG]          org.junit.jupiter:junit-jupiter-engine:jar:5.10.3:test (version managed from 5.10.3)
+[DEBUG]             org.junit.platform:junit-platform-engine:jar:1.10.3:test (version managed from 1.10.3)
+[DEBUG]       org.mockito:mockito-core:jar:5.11.0:test (version managed from 5.11.0)
+[DEBUG]          net.bytebuddy:byte-buddy-agent:jar:1.14.18:test (version managed from 1.14.12)
+[DEBUG]          org.objenesis:objenesis:jar:3.3:test
+[DEBUG]       org.mockito:mockito-junit-jupiter:jar:5.11.0:test (version managed from 5.11.0)
+[DEBUG]       org.skyscreamer:jsonassert:jar:1.5.3:test (version managed from 1.5.3)
+[DEBUG]          com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1:test
+[DEBUG]       org.springframework:spring-test:jar:6.1.11:test (version managed from 6.1.11)
+[DEBUG]       org.xmlunit:xmlunit-core:jar:2.9.1:test (version managed from 2.9.1)
+[DEBUG]    org.awaitility:awaitility:jar:4.2.1:test
+[DEBUG]    org.springframework.cloud:spring-cloud-bindings:jar:2.0.3:compile
+[INFO] 
+[INFO] --- rewrite-maven-plugin:6.8.1:runNoFork (default-cli) @ spring-metal ---
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for ow2-snapshot (http://repository.ow2.org/nexus/content/repositories/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=176209, ConflictMarker.markTime=67750, ConflictMarker.nodeCount=204, ConflictIdSorter.graphTime=99417, ConflictIdSorter.topsortTime=28166, ConflictIdSorter.conflictIdCount=73, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=953792, ConflictResolver.conflictItemCount=195, DefaultDependencyCollector.collectTime=60858416, DefaultDependencyCollector.transformTime=1367875}
+[DEBUG] org.openrewrite.maven:rewrite-maven-plugin:jar:6.8.1
+[DEBUG]    org.openrewrite:rewrite-java:jar:8.52.1:compile
+[DEBUG]       org.openrewrite:rewrite-core:jar:8.52.1:compile (version managed from default)
+[DEBUG]          org.openrewrite.tools:jgit:jar:1.2.0:compile
+[DEBUG]             com.googlecode.javaewah:JavaEWAH:jar:1.1.13:runtime
+[DEBUG]          com.fasterxml.jackson.core:jackson-core:jar:2.17.3:compile (version managed from default)
+[DEBUG]          com.fasterxml.jackson.core:jackson-databind:jar:2.17.3:compile (version managed from default)
+[DEBUG]          com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.3:compile (version managed from default)
+[DEBUG]          com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.3:compile (version managed from default)
+[DEBUG]          org.jspecify:jspecify:jar:1.0.0:compile
+[DEBUG]          org.openrewrite.tools:java-object-diff:jar:1.0.1:runtime
+[DEBUG]          io.quarkus.gizmo:gizmo:jar:1.0.11.Final:runtime
+[DEBUG]             org.jboss:jandex:jar:2.4.2.Final:runtime
+[DEBUG]          net.java.dev.jna:jna-platform:jar:5.17.0:runtime
+[DEBUG]             net.java.dev.jna:jna:jar:5.17.0:runtime
+[DEBUG]          io.moderne:jsonrpc:jar:1.0.0:runtime
+[DEBUG]          org.objenesis:objenesis:jar:3.4:runtime
+[DEBUG]       org.jetbrains:annotations:jar:26.0.2:compile
+[DEBUG]       com.fasterxml.jackson.core:jackson-annotations:jar:2.17.3:compile (version managed from default)
+[DEBUG]       org.antlr:antlr4-runtime:jar:4.13.2:runtime
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.17.0:runtime
+[DEBUG]       org.apache.commons:commons-text:jar:1.13.1:runtime
+[DEBUG]       io.github.classgraph:classgraph:jar:4.8.179:runtime
+[DEBUG]       org.ow2.asm:asm:jar:9.8:runtime
+[DEBUG]       org.ow2.asm:asm-util:jar:9.8:runtime
+[DEBUG]          org.ow2.asm:asm-tree:jar:9.8:runtime
+[DEBUG]          org.ow2.asm:asm-analysis:jar:9.8:runtime
+[DEBUG]    org.openrewrite:rewrite-java-8:jar:8.52.1:compile
+[DEBUG]       org.openrewrite:rewrite-java-lombok:jar:8.52.1:runtime (version managed from default)
+[DEBUG]          org.projectlombok:lombok:jar:1.18.38:runtime
+[DEBUG]    org.openrewrite:rewrite-java-11:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-java-17:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-java-21:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-xml:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-maven:jar:8.52.1:compile
+[DEBUG]       com.github.ben-manes.caffeine:caffeine:jar:2.9.3:runtime
+[DEBUG]          org.checkerframework:checker-qual:jar:3.19.0:runtime
+[DEBUG]          com.google.errorprone:error_prone_annotations:jar:2.10.0:runtime
+[DEBUG]       dev.failsafe:failsafe:jar:3.3.2:runtime
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.17.3:runtime (version managed from default)
+[DEBUG]          org.codehaus.woodstox:stax2-api:jar:4.2.2:compile
+[DEBUG]          com.fasterxml.woodstox:woodstox-core:jar:6.7.0:compile
+[DEBUG]       com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.17.3:compile (version managed from default)
+[DEBUG]       com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.17.3:runtime (version managed from default)
+[DEBUG]          jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3:runtime
+[DEBUG]          jakarta.activation:jakarta.activation-api:jar:1.2.2:runtime
+[DEBUG]       com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.3:runtime (version managed from default)
+[DEBUG]    org.openrewrite:rewrite-hcl:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-json:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-properties:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-protobuf:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-toml:jar:8.52.1:compile
+[DEBUG]    org.openrewrite:rewrite-yaml:jar:8.52.1:compile
+[DEBUG]       org.yaml:snakeyaml:jar:2.4:runtime
+[DEBUG]    org.openrewrite:rewrite-groovy:jar:8.52.1:compile
+[DEBUG]       org.codehaus.groovy:groovy:jar:3.0.24:runtime
+[DEBUG]    org.openrewrite:rewrite-kotlin:jar:8.52.1:compile
+[DEBUG]       org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.9.25:runtime
+[DEBUG]          org.jetbrains.kotlin:kotlin-script-runtime:jar:1.9.25:runtime
+[DEBUG]          org.jetbrains.kotlin:kotlin-reflect:jar:1.6.10:runtime
+[DEBUG]          org.jetbrains.kotlin:kotlin-daemon-embeddable:jar:1.9.25:runtime
+[DEBUG]          org.jetbrains.intellij.deps:trove4j:jar:1.0.20200330:runtime
+[DEBUG]       org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.25:runtime
+[DEBUG]    org.codehaus.plexus:plexus-xml:jar:4.1.0:compile
+[DEBUG]       org.apache.maven:maven-xml:jar:4.0.0-rc-3:compile
+[DEBUG]          org.apache.maven:maven-api-xml:jar:4.0.0-rc-3:provided (scope managed from default) (version managed from default)
+[DEBUG]             org.apache.maven:maven-api-annotations:jar:4.0.0-rc-3:provided
+[DEBUG]    io.micrometer:micrometer-core:jar:1.14.6:compile
+[DEBUG]       io.micrometer:micrometer-commons:jar:1.14.6:compile
+[DEBUG]       io.micrometer:micrometer-observation:jar:1.14.6:compile
+[DEBUG]       org.hdrhistogram:HdrHistogram:jar:2.2.2:runtime
+[DEBUG]       org.latencyutils:LatencyUtils:jar:2.0.3:runtime
+[DEBUG]    org.rocksdb:rocksdbjni:jar:8.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:1.1:runtime
+[DEBUG] Created new class realm plugin>org.openrewrite.maven:rewrite-maven-plugin:6.8.1
+[DEBUG] Importing foreign packages into class realm plugin>org.openrewrite.maven:rewrite-maven-plugin:6.8.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.openrewrite.maven:rewrite-maven-plugin:6.8.1
+[DEBUG]   Included: org.openrewrite.maven:rewrite-maven-plugin:jar:6.8.1
+[DEBUG]   Included: org.openrewrite:rewrite-java:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-core:jar:8.52.1
+[DEBUG]   Included: org.openrewrite.tools:jgit:jar:1.2.0
+[DEBUG]   Included: com.googlecode.javaewah:JavaEWAH:jar:1.1.13
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-core:jar:2.17.3
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-databind:jar:2.17.3
+[DEBUG]   Included: com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.17.3
+[DEBUG]   Included: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.17.3
+[DEBUG]   Included: org.jspecify:jspecify:jar:1.0.0
+[DEBUG]   Included: org.openrewrite.tools:java-object-diff:jar:1.0.1
+[DEBUG]   Included: io.quarkus.gizmo:gizmo:jar:1.0.11.Final
+[DEBUG]   Included: org.jboss:jandex:jar:2.4.2.Final
+[DEBUG]   Included: net.java.dev.jna:jna-platform:jar:5.17.0
+[DEBUG]   Included: net.java.dev.jna:jna:jar:5.17.0
+[DEBUG]   Included: io.moderne:jsonrpc:jar:1.0.0
+[DEBUG]   Included: org.objenesis:objenesis:jar:3.4
+[DEBUG]   Included: org.jetbrains:annotations:jar:26.0.2
+[DEBUG]   Included: com.fasterxml.jackson.core:jackson-annotations:jar:2.17.3
+[DEBUG]   Included: org.antlr:antlr4-runtime:jar:4.13.2
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.17.0
+[DEBUG]   Included: org.apache.commons:commons-text:jar:1.13.1
+[DEBUG]   Included: io.github.classgraph:classgraph:jar:4.8.179
+[DEBUG]   Included: org.ow2.asm:asm:jar:9.8
+[DEBUG]   Included: org.ow2.asm:asm-util:jar:9.8
+[DEBUG]   Included: org.ow2.asm:asm-tree:jar:9.8
+[DEBUG]   Included: org.ow2.asm:asm-analysis:jar:9.8
+[DEBUG]   Included: org.openrewrite:rewrite-java-8:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-java-lombok:jar:8.52.1
+[DEBUG]   Included: org.projectlombok:lombok:jar:1.18.38
+[DEBUG]   Included: org.openrewrite:rewrite-java-11:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-java-17:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-java-21:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-xml:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-maven:jar:8.52.1
+[DEBUG]   Included: com.github.ben-manes.caffeine:caffeine:jar:2.9.3
+[DEBUG]   Included: org.checkerframework:checker-qual:jar:3.19.0
+[DEBUG]   Included: com.google.errorprone:error_prone_annotations:jar:2.10.0
+[DEBUG]   Included: dev.failsafe:failsafe:jar:3.3.2
+[DEBUG]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.17.3
+[DEBUG]   Included: org.codehaus.woodstox:stax2-api:jar:4.2.2
+[DEBUG]   Included: com.fasterxml.woodstox:woodstox-core:jar:6.7.0
+[DEBUG]   Included: com.fasterxml.jackson.dataformat:jackson-dataformat-smile:jar:2.17.3
+[DEBUG]   Included: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.17.3
+[DEBUG]   Included: jakarta.xml.bind:jakarta.xml.bind-api:jar:2.3.3
+[DEBUG]   Included: jakarta.activation:jakarta.activation-api:jar:1.2.2
+[DEBUG]   Included: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.17.3
+[DEBUG]   Included: org.openrewrite:rewrite-hcl:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-json:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-properties:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-protobuf:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-toml:jar:8.52.1
+[DEBUG]   Included: org.openrewrite:rewrite-yaml:jar:8.52.1
+[DEBUG]   Included: org.yaml:snakeyaml:jar:2.4
+[DEBUG]   Included: org.openrewrite:rewrite-groovy:jar:8.52.1
+[DEBUG]   Included: org.codehaus.groovy:groovy:jar:3.0.24
+[DEBUG]   Included: org.openrewrite:rewrite-kotlin:jar:8.52.1
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-compiler-embeddable:jar:1.9.25
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-script-runtime:jar:1.9.25
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-reflect:jar:1.6.10
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-daemon-embeddable:jar:1.9.25
+[DEBUG]   Included: org.jetbrains.intellij.deps:trove4j:jar:1.0.20200330
+[DEBUG]   Included: org.jetbrains.kotlin:kotlin-stdlib:jar:1.9.25
+[DEBUG]   Included: org.codehaus.plexus:plexus-xml:jar:4.1.0
+[DEBUG]   Included: org.apache.maven:maven-xml:jar:4.0.0-rc-3
+[DEBUG]   Included: io.micrometer:micrometer-core:jar:1.14.6
+[DEBUG]   Included: io.micrometer:micrometer-commons:jar:1.14.6
+[DEBUG]   Included: io.micrometer:micrometer-observation:jar:1.14.6
+[DEBUG]   Included: org.hdrhistogram:HdrHistogram:jar:2.2.2
+[DEBUG]   Included: org.latencyutils:LatencyUtils:jar:2.0.3
+[DEBUG]   Included: org.rocksdb:rocksdbjni:jar:8.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.1
+[DEBUG] Configuring mojo org.openrewrite.maven:rewrite-maven-plugin:6.8.1:runNoFork from plugin realm ClassRealm[plugin>org.openrewrite.maven:rewrite-maven-plugin:6.8.1, parent: java.net.URLClassLoader@5387f9e0]
+[DEBUG] Configuring mojo 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:runNoFork' with basic configurator -->
+[DEBUG]   (f) activeRecipes = [dynamic.1.com.vmware.tanzu.gradle.recipes.ParseMavenBuildFiles, dynamic.1.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.2.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.3.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.4.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.5.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.6.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.7.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.8.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.9.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.10.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.11.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.12.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.13.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.14.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.15.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.16.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.17.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.18.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.19.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.20.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.21.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.22.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.23.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.24.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.25.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.26.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.27.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.28.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.29.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.30.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.31.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.32.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.33.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.34.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.35.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.36.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.37.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.38.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.39.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.40.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.41.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.42.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.43.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.44.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.45.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.46.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.47.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.48.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.49.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.50.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.51.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.52.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.53.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.54.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.55.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.56.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.57.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.58.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.59.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.60.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.61.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.62.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.63.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.64.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.65.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.66.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.67.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.68.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.69.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.70.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.71.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.72.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.73.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.74.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.75.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.76.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.77.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.78.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.79.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.80.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.81.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.82.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.83.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.84.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.85.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.86.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.87.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.88.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.89.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.90.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.91.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.92.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.93.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.94.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.95.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.96.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.97.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.98.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.99.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.100.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.101.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.102.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.103.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.104.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.105.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.106.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.107.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.108.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.109.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.110.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.111.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.112.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.113.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.114.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.115.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.116.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.117.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.118.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.119.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.120.com.vmware.tanzu.spring.recipes.framework62.UpgradeSpringFramework_6_2, dynamic.121.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.122.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.123.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.124.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.125.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.126.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.127.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.128.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.129.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.130.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.131.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.132.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.133.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.134.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.135.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.136.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.137.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.138.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.139.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.140.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.141.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.142.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.143.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.144.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.145.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.146.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.147.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.148.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.149.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.150.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.151.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.152.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.153.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.154.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.155.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.156.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.157.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.158.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.159.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.160.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.161.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.162.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.163.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.164.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.165.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.166.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.167.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.168.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.169.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.170.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.171.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.172.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.173.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.174.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.175.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.176.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.177.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.178.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.179.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.180.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.181.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.182.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.183.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.184.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.185.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.186.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.187.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.188.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.189.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.190.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.191.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.192.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.193.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.194.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.195.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.196.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.197.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.198.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.199.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.200.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.201.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.202.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.203.org.openrewrite.maven.UpgradePluginVersion, dynamic.204.org.openrewrite.gradle.plugins.UpgradePluginVersion, dynamic.205.org.openrewrite.maven.UpgradeParentVersion, dynamic.206.com.vmware.tanzu.spring.recipes.boot34.UpgradeSpringBoot_3_4, dynamic.207.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.208.org.openrewrite.java.dependencies.UpgradeDependencyVersion]
+[DEBUG]   (f) activeStyles = []
+[DEBUG]   (f) additionalPlainTextMasks = []
+[DEBUG]   (f) checkstyleDetectionEnabled = true
+[DEBUG]   (f) configLocation = /Users/orenpenso/git/spring-metal/.advisor/479bb30a-41db-4272-9ef6-4229b1b37ec6-rewrite.yml
+[DEBUG]   (f) exclusions = []
+[DEBUG]   (f) exportDatatables = false
+[DEBUG]   (f) failOnInvalidActiveRecipes = true
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@75fa1be3
+[DEBUG]   (f) options = []
+[DEBUG]   (f) plainTextMasks = []
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.RewriteDiscoverMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:discover'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.RewriteDryRunMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:dryRun'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.RewriteDryRunNoForkMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:dryRunNoFork'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.rewrite_maven_plugin.HelpMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.RewriteRunMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:run'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.openrewrite.maven.RewriteRunNoForkMojo', role hint: 'org.openrewrite.maven:rewrite-maven-plugin:6.8.1:runNoFork'
+---
+[DEBUG]   (f) pomCacheEnabled = true
+[DEBUG]   (f) project = MavenProject: com.example:spring-metal:0.6 @ /Users/orenpenso/git/spring-metal/pom.xml
+[DEBUG]   (f) recipeArtifactCoordinates = [com.vmware.tanzu.spring.recipes:rewrite-spring:1.3.1, org.openrewrite.recipe:rewrite-hibernate:1.13.1, com.vmware.tanzu.spring.recipes:spring-boot-3-upgrade-recipes:1.3.1, com.vmware.tanzu.spring.recipes:spring-boot-2-upgrade-recipes:1.3.1, com.vmware.tanzu.spring.recipes:java-recipes:1.3.1, com.vmware.tanzu.spring.recipes:cf-deployment:1.3.1]
+[DEBUG]   (f) recipeChangeLogLevel = WARN
+[DEBUG]   (f) resolvePropertiesInYaml = true
+[DEBUG]   (f) rewriteSkip = false
+[DEBUG]   (f) runPerSubmodule = false
+[DEBUG]   (f) sizeThresholdMb = 10
+[DEBUG]   (f) skipMavenParsing = false
+[DEBUG] -- end configuration --
+[DEBUG] Using SLF4J as the default logging framework
+[INFO] Using active recipe(s) [dynamic.1.com.vmware.tanzu.gradle.recipes.ParseMavenBuildFiles, dynamic.1.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.2.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.3.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.4.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.5.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.6.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.7.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.8.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.9.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.10.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.11.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.12.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.13.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.14.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.15.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.16.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.17.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.18.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.19.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.20.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.21.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.22.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.23.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.24.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.25.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.26.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.27.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.28.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.29.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.30.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.31.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.32.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.33.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.34.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.35.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.36.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.37.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.38.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.39.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.40.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.41.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.42.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.43.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.44.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.45.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.46.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.47.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.48.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.49.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.50.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.51.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.52.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.53.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.54.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.55.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.56.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.57.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.58.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.59.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.60.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.61.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.62.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.63.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.64.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.65.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.66.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.67.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.68.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.69.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.70.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.71.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.72.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.73.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.74.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.75.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.76.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.77.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.78.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.79.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.80.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.81.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.82.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.83.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.84.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.85.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.86.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.87.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.88.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.89.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.90.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.91.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.92.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.93.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.94.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.95.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.96.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.97.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.98.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.99.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.100.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.101.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.102.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.103.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.104.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.105.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.106.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.107.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.108.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.109.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.110.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.111.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.112.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.113.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.114.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.115.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.116.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.117.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.118.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.119.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.120.com.vmware.tanzu.spring.recipes.framework62.UpgradeSpringFramework_6_2, dynamic.121.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.122.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.123.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.124.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.125.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.126.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.127.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.128.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.129.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.130.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.131.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.132.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.133.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.134.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.135.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.136.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.137.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.138.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.139.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.140.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.141.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.142.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.143.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.144.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.145.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.146.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.147.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.148.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.149.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.150.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.151.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.152.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.153.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.154.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.155.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.156.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.157.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.158.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.159.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.160.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.161.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.162.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.163.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.164.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.165.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.166.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.167.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.168.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.169.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.170.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.171.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.172.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.173.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.174.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.175.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.176.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.177.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.178.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.179.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.180.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.181.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.182.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.183.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.184.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.185.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.186.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.187.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.188.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.189.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.190.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.191.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.192.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.193.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.194.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.195.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.196.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.197.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.198.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.199.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.200.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.201.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.202.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.203.org.openrewrite.maven.UpgradePluginVersion, dynamic.204.org.openrewrite.gradle.plugins.UpgradePluginVersion, dynamic.205.org.openrewrite.maven.UpgradeParentVersion, dynamic.206.com.vmware.tanzu.spring.recipes.boot34.UpgradeSpringBoot_3_4, dynamic.207.org.openrewrite.java.dependencies.UpgradeDependencyVersion, dynamic.208.org.openrewrite.java.dependencies.UpgradeDependencyVersion]
+[INFO] Using active styles(s) []
+[DEBUG] Using mirror maven-default-http-blocker (http://0.0.0.0/) for apache.snapshots (http://repository.apache.org/snapshots).
+[DEBUG] Dependency collection stats {ConflictMarker.analyzeTime=613083, ConflictMarker.markTime=244625, ConflictMarker.nodeCount=1650, ConflictIdSorter.graphTime=278250, ConflictIdSorter.topsortTime=56667, ConflictIdSorter.conflictIdCount=122, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1087833, ConflictResolver.conflictItemCount=372, DefaultDependencyCollector.collectTime=119363250, DefaultDependencyCollector.transformTime=2311667}
+[INFO] Validating active recipes...
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, create new FileSnapshot: lastRead=2025-08-08 18:37:17.315587000, lastModified=2025-08-08 06:12:46.351769299, size=578, fileKey=(dev=100000f,ino=28988836)
+[DEBUG] file=null, size changed from -1 to 494 bytes
+[DEBUG] loading config FileBasedConfig[/Users/orenpenso/.config/jgit/config]
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, create new FileSnapshot: lastRead=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, size=494, fileKey=(dev=100000f,ino=27521841)
+[DEBUG] readpipe [bash, --login, -c, which git],/Users/orenpenso
+[DEBUG] readpipe may return '/usr/bin/git'
+[DEBUG] remaining output:
+
+[DEBUG] readpipe [xcode-select, -p],/Users/orenpenso
+[DEBUG] readpipe may return '/Library/Developer/CommandLineTools'
+[DEBUG] remaining output:
+
+[DEBUG] readpipe [/usr/bin/git, --version],/usr/bin
+[DEBUG] readpipe may return 'git version 2.39.5 (Apple Git-154)'
+[DEBUG] remaining output:
+
+[DEBUG] readpipe [/usr/bin/git, config, --system, --show-origin, --list, -z],/usr/bin
+[DEBUG] readpipe may return 'null'
+[DEBUG] remaining output:
+
+[DEBUG] readpipe rc=128
+[DEBUG] Exception caught during execution of command '[/usr/bin/git, config, --system, --show-origin, --list, -z]' in '/usr/bin', return code '128', error message 'fatal: unable to read config file '/etc/gitconfig': No such file or directory
+'
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=null, size changed from -1 to 37 bytes
+[DEBUG] loading config FileBasedConfig[/Users/orenpenso/.gitconfig]
+[DEBUG] file=/Users/orenpenso/.gitconfig, create new FileSnapshot: lastRead=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, size=37, fileKey=(dev=100000f,ino=4512455)
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, create new FileSnapshot: lastRead=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, size=578, fileKey=(dev=100000f,ino=28988836)
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/index, create new FileSnapshot: lastRead=2025-08-08 18:37:17.460004000, lastModified=2025-08-08 18:18:52.296893528, size=6738, fileKey=(dev=100000f,ino=29083171)
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, create new FileSnapshot: lastRead=2025-08-08 18:37:17.465206000, lastModified=2025-06-30 08:36:28.508125007, size=309, fileKey=(dev=100000f,ino=15781117)
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, create new FileSnapshot: lastRead=2025-08-08 18:37:17.465806000, lastModified=2025-08-08 05:57:08.189928007, size=35, fileKey=(dev=100000f,ino=28979275)
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, create new FileSnapshot: lastRead=2025-08-08 18:37:17.466098000, lastModified=2025-08-08 06:20:10.579390164, size=41, fileKey=(dev=100000f,ino=28994245)
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, isRacyClean=false, read=2025-08-08 18:37:17.465206000, lastModified=2025-06-30 08:36:28.508125007, delta=3405648957080993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, isRacyClean=false, read=2025-08-08 18:37:17.465806000, lastModified=2025-08-08 05:57:08.189928007, delta=45609275877993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, isRacyClean=false, read=2025-08-08 18:37:17.466098000, lastModified=2025-08-08 06:20:10.579390164, delta=44226886707836 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, isRacyClean=false, read=2025-08-08 18:37:17.465206000, lastModified=2025-06-30 08:36:28.508125007, delta=3405648957080993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, isRacyClean=false, read=2025-08-08 18:37:17.465806000, lastModified=2025-08-08 05:57:08.189928007, delta=45609275877993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, isRacyClean=false, read=2025-08-08 18:37:17.466098000, lastModified=2025-08-08 06:20:10.579390164, delta=44226886707836 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, isRacyClean=false, read=2025-08-08 18:37:17.465206000, lastModified=2025-06-30 08:36:28.508125007, delta=3405648957080993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/packed-refs, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, isRacyClean=false, read=2025-08-08 18:37:17.465806000, lastModified=2025-08-08 05:57:08.189928007, delta=45609275877993 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/HEAD, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, isRacyClean=false, read=2025-08-08 18:37:17.466098000, lastModified=2025-08-08 06:20:10.579390164, delta=44226886707836 ns, racy<=7500 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/refs/heads/cf-only-deployment, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.453544000, lastModified=2025-08-08 06:12:46.351769299, delta=44671101774701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, create new FileSnapshot: lastRead=2025-08-08 18:37:17.471590000, lastModified=2025-08-08 06:12:46.351769299, size=578, fileKey=(dev=100000f,ino=28988836)
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, create new FileSnapshot: lastRead=2025-08-08 18:37:17.471995000, lastModified=2025-08-08 06:12:46.351769299, size=578, fileKey=(dev=100000f,ino=28988836)
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, isRacyClean=false, read=2025-08-08 18:37:17.471995000, lastModified=2025-08-08 06:12:46.351769299, delta=44671120225701 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/config, is unmodified
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/index, create new FileSnapshot: lastRead=2025-08-08 18:37:17.472377000, lastModified=2025-08-08 18:18:52.296893528, size=6738, fileKey=(dev=100000f,ino=29083171)
+[DEBUG] file=null, size changed from -1 to 128 bytes
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/objects/pack, create new FileSnapshot: lastRead=2025-08-08 18:37:17.474902000, lastModified=2025-06-30 08:36:28.513005633, size=128, fileKey=(dev=100000f,ino=15781099)
+[DEBUG] file=/Users/orenpenso/git/spring-metal/.git/objects/pack/pack-cec7663d0e18a634f1845cf9324f0de0d0390fad.pack, create new FileSnapshot: lastRead=2025-08-08 18:37:17.476154000, lastModified=2025-06-30 08:36:28.494262754, size=6135128, fileKey=(dev=100000f,ino=15781108)
+[DEBUG] Opening pack index /Users/orenpenso/git/spring-metal/.git/objects/pack/pack-cec7663d0e18a634f1845cf9324f0de0d0390fad.idx, size 0.104 MB took 1 ms
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, isRacyClean=false, read=2025-08-08 18:37:17.318294000, lastModified=2025-08-04 14:03:51.160179340, delta=362006158114660 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.config/jgit/config, is unmodified
+[DEBUG] file=/Users/orenpenso/.gitconfig, isRacyClean=false, read=2025-08-08 18:37:17.453264000, lastModified=2025-05-30 11:41:58.692981104, delta=6072918760282896 ns, racy<=2500000000 ns
+[DEBUG] file=/Users/orenpenso/.gitconfig, is unmodified
+[INFO] Project [spring-metal] Resolving Poms...
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-parent:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-dependencies:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.activemq:artemis-bom:2.33.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.activemq:artemis-project:2.33.0 from org.apache.activemq:artemis-bom:2.33.0
+[DEBUG] Downloaded org.apache:apache:31 from org.apache.activemq:artemis-bom:2.33.0
+[DEBUG] Downloaded org.assertj:assertj-bom:3.25.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.zipkin.reporter2:zipkin-reporter-bom:3.4.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.zipkin.brave:brave-bom:6.0.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.cassandra:java-driver-bom:4.18.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.glassfish.jaxb:jaxb-bom:4.0.5 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.eclipse.ee4j:project:1.0.9 from org.glassfish.jaxb:jaxb-bom:4.0.5
+[DEBUG] Downloaded org.apache.groovy:groovy-bom:4.0.22 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.infinispan:infinispan-bom:15.0.5.Final from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.infinispan:infinispan-build-configuration-parent:15.0.5.Final from org.infinispan:infinispan-bom:15.0.5.Final
+[DEBUG] Downloaded org.jboss:jboss-parent:43 from org.infinispan:infinispan-bom:15.0.5.Final
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-bom:2.17.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-parent:2.17 from com.fasterxml.jackson:jackson-bom:2.17.2
+[DEBUG] Downloaded com.fasterxml:oss-parent:58 from com.fasterxml.jackson:jackson-bom:2.17.2
+[DEBUG] Downloaded org.glassfish.jersey:jersey-bom:3.1.7 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.eclipse.jetty.ee10:jetty-ee10-bom:12.0.11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.eclipse.jetty:jetty-bom:12.0.11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.junit:junit-bom:5.10.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.jetbrains.kotlin:kotlin-bom:1.9.24 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.jetbrains.kotlinx:kotlinx-serialization-bom:1.6.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-bom:2.23.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.logging:logging-parent:10.6.0 from org.apache.logging.log4j:log4j-bom:2.23.1
+[DEBUG] Downloaded io.micrometer:micrometer-bom:1.13.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.micrometer:micrometer-tracing-bom:1.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.mockito:mockito-bom:5.11.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.netty:netty-bom:4.1.111.Final from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.sonatype.oss:oss-parent:7 from io.netty:netty-bom:4.1.111.Final
+[DEBUG] Downloaded com.squareup.okhttp3:okhttp-bom:4.12.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.opentelemetry:opentelemetry-bom:1.37.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.prometheus:prometheus-metrics-bom:1.2.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.prometheus:client_java:1.2.1 from io.prometheus:prometheus-metrics-bom:1.2.1
+[DEBUG] Downloaded io.prometheus:simpleclient_bom:0.16.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.prometheus:parent:0.16.0 from io.prometheus:simpleclient_bom:0.16.0
+[DEBUG] Downloaded org.apache.pulsar:pulsar-bom:3.2.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache:apache:29 from org.apache.pulsar:pulsar-bom:3.2.3
+[DEBUG] Downloaded com.querydsl:querydsl-bom:5.1.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.projectreactor:reactor-bom:2023.0.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.rest-assured:rest-assured-bom:5.4.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.rsocket:rsocket-bom:1.1.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.seleniumhq.selenium:selenium-bom:4.19.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.amqp:spring-amqp-bom:3.1.6 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.batch:spring-batch-bom:5.1.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.data:spring-data-bom:2024.0.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework:spring-framework-bom:6.1.11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.integration:spring-integration-bom:6.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.pulsar:spring-pulsar-bom:1.1.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.restdocs:spring-restdocs-bom:3.0.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.security:spring-security-bom:6.3.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.session:spring-session-bom:3.3.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.ws:spring-ws-bom:4.0.11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.testcontainers:testcontainers-bom:1.19.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-web:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-actuator:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-jpa:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-mongodb:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-redis:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-validation:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:webjars-locator-core:0.58 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.sonatype.oss:oss-parent:9 from org.webjars:webjars-locator-core:0.58
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-all:3.3.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:bootstrap:3.1.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:angularjs:1.2.16 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:angular-ui:0.4.0-2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:angular-ui-bootstrap:0.10.0-1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:jquery:2.1.0-2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.cloud:spring-cloud-bindings:2.0.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.cloud:spring-cloud-bindings-parent:2.0.3 from org.springframework.cloud:spring-cloud-bindings:2.0.3
+[DEBUG] Downloaded org.springframework.boot:spring-boot-dependencies:3.1.0 from org.springframework.cloud:spring-cloud-bindings:2.0.3
+[DEBUG] Downloaded org.assertj:assertj-bom:3.24.2 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.zipkin.brave:brave-bom:5.15.1 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.zipkin.reporter2:zipkin-reporter-bom:2.16.3 from io.zipkin.brave:brave-bom:5.15.1
+[DEBUG] Downloaded com.datastax.oss:java-driver-bom:4.15.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.dropwizard.metrics:metrics-bom:4.2.18 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.dropwizard.metrics:metrics-parent:4.2.18 from io.dropwizard.metrics:metrics-bom:4.2.18
+[DEBUG] Downloaded org.glassfish.jaxb:jaxb-bom:4.0.2 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.eclipse.ee4j:project:1.0.8 from org.glassfish.jaxb:jaxb-bom:4.0.2
+[DEBUG] Downloaded org.apache.groovy:groovy-bom:4.0.12 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.infinispan:infinispan-bom:14.0.9.Final from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.infinispan:infinispan-build-configuration-parent:14.0.9.Final from org.infinispan:infinispan-bom:14.0.9.Final
+[DEBUG] Downloaded org.jboss:jboss-parent:39 from org.infinispan:infinispan-bom:14.0.9.Final
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-bom:2.15.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-parent:2.15 from com.fasterxml.jackson:jackson-bom:2.15.0
+[DEBUG] Downloaded com.fasterxml:oss-parent:50 from com.fasterxml.jackson:jackson-bom:2.15.0
+[DEBUG] Downloaded org.glassfish.jersey:jersey-bom:3.1.1 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.eclipse.jetty:jetty-bom:11.0.15 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.junit:junit-bom:5.9.3 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.jetbrains.kotlin:kotlin-bom:1.8.21 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.4 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-bom:2.20.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.apache.logging:logging-parent:7 from org.apache.logging.log4j:log4j-bom:2.20.0
+[DEBUG] Downloaded org.apache:apache:27 from org.apache.logging.log4j:log4j-bom:2.20.0
+[DEBUG] Downloaded io.micrometer:micrometer-bom:1.11.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.micrometer:micrometer-tracing-bom:1.1.1 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.mockito:mockito-bom:5.3.1 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.netty:netty-bom:4.1.92.Final from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded com.squareup.okhttp3:okhttp-bom:4.10.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.opentelemetry:opentelemetry-bom:1.25.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded com.oracle.database.jdbc:ojdbc-bom:21.9.0.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded com.querydsl:querydsl-bom:5.0.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.projectreactor:reactor-bom:2022.0.7 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded io.rest-assured:rest-assured-bom:5.3.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.batch:spring-batch-bom:5.0.2 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.data:spring-data-bom:2023.0.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework:spring-framework-bom:6.0.9 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.integration:spring-integration-bom:6.1.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.restdocs:spring-restdocs-bom:3.0.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.security:spring-security-bom:6.1.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.session:spring-session-bom:3.1.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.ws:spring-ws-bom:4.0.4 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.testcontainers:testcontainers-bom:1.18.0 from org.springframework.boot:spring-boot-dependencies:3.1.0
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-json:3.3.2 from org.springframework.boot:spring-boot-starter-web:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-tomcat:3.3.2 from org.springframework.boot:spring-boot-starter-web:3.3.2
+[DEBUG] Downloaded org.springframework:spring-web:6.1.11 from org.springframework.boot:spring-boot-starter-web:3.3.2
+[DEBUG] Downloaded org.springframework:spring-webmvc:6.1.11 from org.springframework.boot:spring-boot-starter-web:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.2 from org.springframework.boot:spring-boot-starter-actuator:3.3.2
+[DEBUG] Downloaded io.micrometer:micrometer-observation:1.13.2 from org.springframework.boot:spring-boot-starter-actuator:3.3.2
+[DEBUG] Downloaded io.micrometer:micrometer-jakarta9:1.13.2 from org.springframework.boot:spring-boot-starter-actuator:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-aop:3.3.2 from org.springframework.boot:spring-boot-starter-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-jdbc:3.3.2 from org.springframework.boot:spring-boot-starter-data-jpa:3.3.2
+[DEBUG] Downloaded org.hibernate.orm:hibernate-core:6.5.2.Final from org.springframework.boot:spring-boot-starter-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework.data:spring-data-jpa:3.3.2 from org.springframework.boot:spring-boot-starter-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework.data:spring-data-jpa-parent:3.3.2 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework.data.build:spring-data-parent:3.3.2 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework.data.build:spring-data-build:3.3.2 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded io.projectreactor:reactor-bom:2023.0.7 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework:spring-framework-bom:6.1.9 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework:spring-aspects:6.1.11 from org.springframework.boot:spring-boot-starter-data-jpa:3.3.2
+[DEBUG] Downloaded org.mongodb:mongodb-driver-sync:5.0.1 from org.springframework.boot:spring-boot-starter-data-mongodb:3.3.2
+[DEBUG] Downloaded org.springframework.data:spring-data-mongodb:4.3.2 from org.springframework.boot:spring-boot-starter-data-mongodb:3.3.2
+[DEBUG] Downloaded org.springframework.data:spring-data-mongodb-parent:4.3.2 from org.springframework.data:spring-data-mongodb:4.3.2
+[DEBUG] Downloaded io.lettuce:lettuce-core:6.3.2.RELEASE from org.springframework.boot:spring-boot-starter-data-redis:3.3.2
+[DEBUG] Downloaded org.springframework.data:spring-data-redis:3.3.2 from org.springframework.boot:spring-boot-starter-data-redis:3.3.2
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-el:10.1.26 from org.springframework.boot:spring-boot-starter-validation:3.3.2
+[DEBUG] Downloaded org.hibernate.validator:hibernate-validator:8.0.1.Final from org.springframework.boot:spring-boot-starter-validation:3.3.2
+[DEBUG] Downloaded org.hibernate.validator:hibernate-validator-parent:8.0.1.Final from org.hibernate.validator:hibernate-validator:8.0.1.Final
+[DEBUG] Downloaded org.jboss.arquillian:arquillian-bom:1.7.0.Alpha10 from org.hibernate.validator:hibernate-validator:8.0.1.Final
+[DEBUG] Downloaded org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6 from org.jboss.arquillian:arquillian-bom:1.7.0.Alpha10
+[DEBUG] Downloaded org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:3.1.4 from org.jboss.arquillian:arquillian-bom:1.7.0.Alpha10
+[DEBUG] Downloaded org.apache.maven:maven:3.6.3 from org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:3.1.4
+[DEBUG] Downloaded org.apache.maven:maven-parent:33 from org.apache.maven:maven:3.6.3
+[DEBUG] Downloaded org.apache:apache:21 from org.apache.maven:maven:3.6.3
+[DEBUG] Downloaded org.jboss.shrinkwrap.descriptors:shrinkwrap-descriptors-bom:2.0.0 from org.jboss.arquillian:arquillian-bom:1.7.0.Alpha10
+[DEBUG] Downloaded org.slf4j:slf4j-api:2.0.13 from org.webjars:webjars-locator-core:0.58
+[DEBUG] Downloaded org.slf4j:slf4j-parent:2.0.13 from org.slf4j:slf4j-api:2.0.13
+[DEBUG] Downloaded org.slf4j:slf4j-bom:2.0.13 from org.slf4j:slf4j-api:2.0.13
+[DEBUG] Downloaded io.github.classgraph:classgraph:4.8.168 from org.webjars:webjars-locator-core:0.58
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-core:2.17.2 from org.webjars:webjars-locator-core:0.58
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-base:2.17.2 from com.fasterxml.jackson.core:jackson-core:2.17.2
+[DEBUG] Downloaded org.junit:junit-bom:5.10.2 from com.fasterxml.jackson.core:jackson-core:2.17.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot:3.3.2 from io.pivotal.cfenv:java-cfenv-all:3.3.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot-pivotal-scs:3.3.0 from io.pivotal.cfenv:java-cfenv-all:3.3.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot-pivotal-sso:3.3.0 from io.pivotal.cfenv:java-cfenv-all:3.3.0
+[DEBUG] Downloaded org.springframework.boot:spring-boot-autoconfigure:3.3.2 from org.springframework.boot:spring-boot-starter:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-logging:3.3.2 from org.springframework.boot:spring-boot-starter:3.3.2
+[DEBUG] Downloaded jakarta.annotation:jakarta.annotation-api:2.1.1 from org.springframework.boot:spring-boot-starter:3.3.2
+[DEBUG] Downloaded org.eclipse.ee4j:project:1.0.7 from jakarta.annotation:jakarta.annotation-api:2.1.1
+[DEBUG] Downloaded org.springframework:spring-core:6.1.11 from org.springframework.boot:spring-boot-starter:3.3.2
+[DEBUG] Downloaded org.yaml:snakeyaml:2.2 from org.springframework.boot:spring-boot-starter:3.3.2
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-databind:2.17.2 from org.springframework.boot:spring-boot-starter-json:3.3.2
+[DEBUG] Downloaded com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.2 from org.springframework.boot:spring-boot-starter-json:3.3.2
+[DEBUG] Downloaded com.fasterxml.jackson.module:jackson-modules-java8:2.17.2 from com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.17.2
+[DEBUG] Downloaded com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.17.2 from org.springframework.boot:spring-boot-starter-json:3.3.2
+[DEBUG] Downloaded com.fasterxml.jackson.module:jackson-module-parameter-names:2.17.2 from org.springframework.boot:spring-boot-starter-json:3.3.2
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-core:10.1.26 from org.springframework.boot:spring-boot-starter-tomcat:3.3.2
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-websocket:10.1.26 from org.springframework.boot:spring-boot-starter-tomcat:3.3.2
+[DEBUG] Downloaded org.springframework:spring-beans:6.1.11 from org.springframework:spring-web:6.1.11
+[DEBUG] Downloaded org.springframework:spring-aop:6.1.11 from org.springframework:spring-webmvc:6.1.11
+[DEBUG] Downloaded org.springframework:spring-context:6.1.11 from org.springframework:spring-webmvc:6.1.11
+[DEBUG] Downloaded org.springframework:spring-expression:6.1.11 from org.springframework:spring-webmvc:6.1.11
+[DEBUG] Downloaded org.springframework.boot:spring-boot-actuator:3.3.2 from org.springframework.boot:spring-boot-actuator-autoconfigure:3.3.2
+[DEBUG] Downloaded io.micrometer:micrometer-commons:1.13.2 from io.micrometer:micrometer-observation:1.13.2
+[DEBUG] Downloaded io.micrometer:micrometer-core:1.13.2 from io.micrometer:micrometer-jakarta9:1.13.2
+[DEBUG] Downloaded org.aspectj:aspectjweaver:1.9.22.1 from org.springframework.boot:spring-boot-starter-aop:3.3.2
+[DEBUG] Downloaded com.zaxxer:HikariCP:5.1.0 from org.springframework.boot:spring-boot-starter-jdbc:3.3.2
+[DEBUG] Downloaded org.springframework:spring-jdbc:6.1.11 from org.springframework.boot:spring-boot-starter-jdbc:3.3.2
+[DEBUG] Downloaded jakarta.persistence:jakarta.persistence-api:3.1.0 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded jakarta.transaction:jakarta.transaction-api:2.0.1 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded org.eclipse.ee4j:project:1.0.6 from jakarta.transaction:jakarta.transaction-api:2.0.1
+[DEBUG] Downloaded org.jboss.logging:jboss-logging:3.5.3.Final from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded org.jboss.logging:logging-parent:1.0.1.Final from org.jboss.logging:jboss-logging:3.5.3.Final
+[DEBUG] Downloaded org.hibernate.common:hibernate-commons-annotations:6.0.6.Final from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded io.smallrye:jandex:3.1.2 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded io.smallrye:jandex-parent:3.1.2 from io.smallrye:jandex:3.1.2
+[DEBUG] Downloaded io.smallrye:smallrye-build-parent:39 from io.smallrye:jandex:3.1.2
+[DEBUG] Downloaded com.fasterxml:classmate:1.7.0 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded com.fasterxml:oss-parent:56 from com.fasterxml:classmate:1.7.0
+[DEBUG] Downloaded net.bytebuddy:byte-buddy:1.14.18 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded net.bytebuddy:byte-buddy-parent:1.14.18 from net.bytebuddy:byte-buddy:1.14.18
+[DEBUG] Downloaded jakarta.xml.bind:jakarta.xml.bind-api:4.0.2 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded jakarta.xml.bind:jakarta.xml.bind-api-parent:4.0.2 from jakarta.xml.bind:jakarta.xml.bind-api:4.0.2
+[DEBUG] Downloaded org.glassfish.jaxb:jaxb-runtime:4.0.5 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded com.sun.xml.bind.mvn:jaxb-runtime-parent:4.0.5 from org.glassfish.jaxb:jaxb-runtime:4.0.5
+[DEBUG] Downloaded com.sun.xml.bind.mvn:jaxb-parent:4.0.5 from org.glassfish.jaxb:jaxb-runtime:4.0.5
+[DEBUG] Downloaded com.sun.xml.bind:jaxb-bom-ext:4.0.5 from org.glassfish.jaxb:jaxb-runtime:4.0.5
+[DEBUG] Downloaded jakarta.inject:jakarta.inject-api:2.0.1 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded org.antlr:antlr4-runtime:4.13.0 from org.hibernate.orm:hibernate-core:6.5.2.Final
+[DEBUG] Downloaded org.antlr:antlr4-master:4.13.0 from org.antlr:antlr4-runtime:4.13.0
+[DEBUG] Downloaded org.springframework.data:spring-data-commons:3.3.2 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework:spring-orm:6.1.11 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.springframework:spring-tx:6.1.11 from org.springframework.data:spring-data-jpa:3.3.2
+[DEBUG] Downloaded org.mongodb:bson:5.0.1 from org.mongodb:mongodb-driver-sync:5.0.1
+[DEBUG] Downloaded org.mongodb:mongodb-driver-core:5.0.1 from org.mongodb:mongodb-driver-sync:5.0.1
+[DEBUG] Downloaded io.netty:netty-bom:4.1.87.Final from org.mongodb:mongodb-driver-core:5.0.1
+[DEBUG] Downloaded io.netty:netty-common:4.1.111.Final from io.lettuce:lettuce-core:6.3.2.RELEASE
+[DEBUG] Downloaded io.netty:netty-parent:4.1.111.Final from io.netty:netty-common:4.1.111.Final
+[DEBUG] Downloaded io.netty:netty-handler:4.1.111.Final from io.lettuce:lettuce-core:6.3.2.RELEASE
+[DEBUG] Downloaded io.netty:netty-transport:4.1.111.Final from io.lettuce:lettuce-core:6.3.2.RELEASE
+[DEBUG] Downloaded io.projectreactor:reactor-core:3.6.8 from io.lettuce:lettuce-core:6.3.2.RELEASE
+[DEBUG] Downloaded org.springframework.data:spring-data-keyvalue:3.3.2 from org.springframework.data:spring-data-redis:3.3.2
+[DEBUG] Downloaded org.springframework:spring-oxm:6.1.11 from org.springframework.data:spring-data-redis:3.3.2
+[DEBUG] Downloaded org.springframework:spring-context-support:6.1.11 from org.springframework.data:spring-data-redis:3.3.2
+[DEBUG] Downloaded jakarta.validation:jakarta.validation-api:3.0.2 from org.hibernate.validator:hibernate-validator:8.0.1.Final
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot:3.3.0 from io.pivotal.cfenv:java-cfenv-boot-pivotal-scs:3.3.0
+[DEBUG] Downloaded ch.qos.logback:logback-classic:1.5.6 from org.springframework.boot:spring-boot-starter-logging:3.3.2
+[DEBUG] Downloaded ch.qos.logback:logback-parent:1.5.6 from ch.qos.logback:logback-classic:1.5.6
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-to-slf4j:2.23.1 from org.springframework.boot:spring-boot-starter-logging:3.3.2
+[DEBUG] Downloaded org.apache.logging.log4j:log4j:2.23.1 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded org.codehaus.groovy:groovy-bom:3.0.21 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-bom:2.16.1 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-parent:2.16 from com.fasterxml.jackson:jackson-bom:2.16.1
+[DEBUG] Downloaded jakarta.platform:jakarta.jakartaee-bom:9.1.0 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded jakarta.platform:jakartaee-api-parent:9.1.0 from jakarta.platform:jakarta.jakartaee-bom:9.1.0
+[DEBUG] Downloaded org.eclipse.jetty:jetty-bom:9.4.54.v20240208 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded io.fabric8:kubernetes-client-bom:5.12.4 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded org.mockito:mockito-bom:4.11.0 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded io.netty:netty-bom:4.1.107.Final from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded org.springframework:spring-framework-bom:5.3.32 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded org.slf4j:jul-to-slf4j:2.0.13 from org.springframework.boot:spring-boot-starter-logging:3.3.2
+[DEBUG] Downloaded org.springframework:spring-jcl:6.1.11 from org.springframework:spring-core:6.1.11
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-annotations:2.17.2 from com.fasterxml.jackson.core:jackson-databind:2.17.2
+[DEBUG] Downloaded org.hdrhistogram:HdrHistogram:2.2.2 from io.micrometer:micrometer-core:1.13.2
+[DEBUG] Downloaded org.latencyutils:LatencyUtils:2.0.3 from io.micrometer:micrometer-core:1.13.2
+[DEBUG] Downloaded org.mongodb:bson-record-codec:5.0.1 from org.mongodb:mongodb-driver-core:5.0.1
+[DEBUG] Downloaded io.netty:netty-resolver:4.1.111.Final from io.netty:netty-handler:4.1.111.Final
+[DEBUG] Downloaded io.netty:netty-buffer:4.1.111.Final from io.netty:netty-handler:4.1.111.Final
+[DEBUG] Downloaded io.netty:netty-transport-native-unix-common:4.1.111.Final from io.netty:netty-handler:4.1.111.Final
+[DEBUG] Downloaded io.netty:netty-codec:4.1.111.Final from io.netty:netty-handler:4.1.111.Final
+[DEBUG] Downloaded org.reactivestreams:reactive-streams:1.0.4 from io.projectreactor:reactor-core:3.6.8
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv:3.3.0 from io.pivotal.cfenv:java-cfenv-boot:3.3.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-jdbc:3.3.0 from io.pivotal.cfenv:java-cfenv-boot:3.3.0
+[DEBUG] Downloaded ch.qos.logback:logback-core:1.5.6 from ch.qos.logback:logback-classic:1.5.6
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-api:2.23.1 from org.apache.logging.log4j:log4j-to-slf4j:2.23.1
+[DEBUG] Downloaded com.cedarsoftware:json-io:4.30.0 from io.pivotal.cfenv:java-cfenv:3.3.0
+[DEBUG] Downloaded com.cedarsoftware:java-util:2.17.0 from com.cedarsoftware:json-io:4.30.0
+[DEBUG] Downloaded org.apache.commons:commons-pool2:2.12.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.commons:commons-parent:62 from org.apache.commons:commons-pool2:2.12.0
+[DEBUG] Downloaded org.apache:apache:30 from org.apache.commons:commons-pool2:2.12.0
+[DEBUG] Downloaded org.junit:junit-bom:5.10.0 from org.apache.commons:commons-pool2:2.12.0
+[DEBUG] Downloaded com.h2database:h2:2.2.224 from com.example:spring-metal:0.6
+[DEBUG] Downloaded com.mysql:mysql-connector-j:8.3.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.postgresql:postgresql:42.7.3 from com.example:spring-metal:0.6
+[DEBUG] Downloaded com.microsoft.sqlserver:mssql-jdbc:12.6.3.jre11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.checkerframework:checker-qual:3.42.0 from org.postgresql:postgresql:42.7.3
+[DEBUG] Downloaded jakarta.activation:jakarta.activation-api:2.1.3 from jakarta.xml.bind:jakarta.xml.bind-api:4.0.2
+[DEBUG] Downloaded org.glassfish.jaxb:jaxb-core:4.0.5 from org.glassfish.jaxb:jaxb-runtime:4.0.5
+[DEBUG] Downloaded org.eclipse.angus:angus-activation:2.0.2 from org.glassfish.jaxb:jaxb-core:4.0.5
+[DEBUG] Downloaded org.eclipse.angus:angus-activation-project:2.0.2 from org.eclipse.angus:angus-activation:2.0.2
+[DEBUG] Downloaded org.glassfish.jaxb:txw2:4.0.5 from org.glassfish.jaxb:jaxb-core:4.0.5
+[DEBUG] Downloaded com.sun.xml.bind.mvn:jaxb-txw-parent:4.0.5 from org.glassfish.jaxb:txw2:4.0.5
+[DEBUG] Downloaded com.sun.istack:istack-commons-runtime:4.1.2 from org.glassfish.jaxb:jaxb-core:4.0.5
+[DEBUG] Downloaded com.sun.istack:istack-commons:4.1.2 from com.sun.istack:istack-commons-runtime:4.1.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-test:3.3.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.awaitility:awaitility:4.2.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.awaitility:awaitility-parent:4.2.1 from org.awaitility:awaitility:4.2.1
+[DEBUG] Downloaded org.springframework.boot:spring-boot-test:3.3.2 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-test-autoconfigure:3.3.2 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded com.jayway.jsonpath:json-path:2.9.0 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded net.minidev:json-smart:2.5.1 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.assertj:assertj-core:3.25.3 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.hamcrest:hamcrest:2.2 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter:5.10.3 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.mockito:mockito-core:5.11.0 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.mockito:mockito-junit-jupiter:5.11.0 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.skyscreamer:jsonassert:1.5.3 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.springframework:spring-test:6.1.11 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.xmlunit:xmlunit-core:2.9.1 from org.springframework.boot:spring-boot-starter-test:3.3.2
+[DEBUG] Downloaded org.xmlunit:xmlunit-parent:2.9.1 from org.xmlunit:xmlunit-core:2.9.1
+[DEBUG] Downloaded net.minidev:accessors-smart:2.5.1 from net.minidev:json-smart:2.5.1
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-api:5.10.3 from org.junit.jupiter:junit-jupiter:5.10.3
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-params:5.10.3 from org.junit.jupiter:junit-jupiter:5.10.3
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-engine:5.10.3 from org.junit.jupiter:junit-jupiter:5.10.3
+[DEBUG] Downloaded net.bytebuddy:byte-buddy-agent:1.14.18 from org.mockito:mockito-core:5.11.0
+[DEBUG] Downloaded org.objenesis:objenesis:3.3 from org.mockito:mockito-core:5.11.0
+[DEBUG] Downloaded org.objenesis:objenesis-parent:3.3 from org.objenesis:objenesis:3.3
+[DEBUG] Downloaded com.vaadin.external.google:android-json:0.0.20131108.vaadin1 from org.skyscreamer:jsonassert:1.5.3
+[DEBUG] Downloaded org.ow2.asm:asm:9.6 from net.minidev:accessors-smart:2.5.1
+[DEBUG] Downloaded org.ow2:ow2:1.5.1 from org.ow2.asm:asm:9.6
+[DEBUG] Downloaded org.opentest4j:opentest4j:1.3.0 from org.junit.jupiter:junit-jupiter-api:5.10.3
+[DEBUG] Downloaded org.junit.platform:junit-platform-commons:1.10.3 from org.junit.jupiter:junit-jupiter-api:5.10.3
+[DEBUG] Downloaded org.apiguardian:apiguardian-api:1.1.2 from org.junit.jupiter:junit-jupiter-api:5.10.3
+[DEBUG] Downloaded org.junit.platform:junit-platform-engine:1.10.3 from org.junit.jupiter:junit-jupiter-engine:5.10.3
+[DEBUG] Project [spring-metal] Base directory : '/Users/orenpenso/git/spring-metal'
+[DEBUG] Project [spring-metal]   Collected Maven POM : '/Users/orenpenso/git/spring-metal/pom.xml'
+[DEBUG] Project [spring-metal]   Maven Source : '/Users/orenpenso/git/spring-metal/pom.xml'
+[INFO] Project [spring-metal] Parsing source files
+[DEBUG] Project [spring-metal] Scanned 17 java source files in main scope.
+[DEBUG] Project [spring-metal] Scanned 21 resource files in main scope.
+[DEBUG] Project [spring-metal] Scanned 1 java source files in test scope.
+[DEBUG] Project [spring-metal] Scanned 1 resource files in test scope.
+[DEBUG] Project [spring-metal] Parsed 24 additional files found within the project.
+[INFO] Running recipe(s)...
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-all:3.4.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot-pivotal-scs:3.4.0 from io.pivotal.cfenv:java-cfenv-all:3.4.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot-pivotal-sso:3.4.0 from io.pivotal.cfenv:java-cfenv-all:3.4.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-boot:3.4.0 from io.pivotal.cfenv:java-cfenv-boot-pivotal-scs:3.4.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv:3.4.0 from io.pivotal.cfenv:java-cfenv-boot:3.4.0
+[DEBUG] Downloaded io.pivotal.cfenv:java-cfenv-jdbc:3.4.0 from io.pivotal.cfenv:java-cfenv-boot:3.4.0
+[DEBUG] Downloaded com.cedarsoftware:json-io:4.51.0 from io.pivotal.cfenv:java-cfenv:3.4.0
+[DEBUG] Downloaded com.cedarsoftware:java-util:3.2.0 from com.cedarsoftware:json-io:4.51.0
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-parent:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-dependencies:3.4.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.activemq:activemq-bom:6.1.7 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.activemq:artemis-bom:2.37.0 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.activemq:artemis-project:2.37.0 from org.apache.activemq:artemis-bom:2.37.0
+[DEBUG] Downloaded org.apache:apache:33 from org.apache.activemq:artemis-bom:2.37.0
+[DEBUG] Downloaded org.assertj:assertj-bom:3.26.3 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.zipkin.reporter2:zipkin-reporter-bom:3.4.3 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.groovy:groovy-bom:4.0.28 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.infinispan:infinispan-bom:15.0.18.Final from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.infinispan:infinispan-build-configuration-parent:15.0.18.Final from org.infinispan:infinispan-bom:15.0.18.Final
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-bom:2.18.4.1 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-parent:2.18.3 from com.fasterxml.jackson:jackson-bom:2.18.4.1
+[DEBUG] Downloaded com.fasterxml:oss-parent:68 from com.fasterxml.jackson:jackson-bom:2.18.4.1
+[DEBUG] Downloaded org.glassfish.jersey:jersey-bom:3.1.10 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.eclipse.jetty.ee10:jetty-ee10-bom:12.0.23 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.eclipse.jetty:jetty-bom:12.0.23 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.junit:junit-bom:5.11.4 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.jetbrains.kotlin:kotlin-bom:1.9.25 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-bom:2.24.3 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.apache.logging:logging-parent:11.3.0 from org.apache.logging.log4j:log4j-bom:2.24.3
+[DEBUG] Downloaded io.micrometer:micrometer-bom:1.14.9 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.micrometer:micrometer-tracing-bom:1.4.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.mockito:mockito-bom:5.14.2 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.netty:netty-bom:4.1.123.Final from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.opentelemetry:opentelemetry-bom:1.43.0 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.prometheus:prometheus-metrics-bom:1.3.10 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.prometheus:client_java_parent:1.3.10 from io.prometheus:prometheus-metrics-bom:1.3.10
+[DEBUG] Downloaded org.apache.pulsar:pulsar-bom:3.3.7 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.projectreactor:reactor-bom:2024.0.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.rest-assured:rest-assured-bom:5.5.5 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded io.rsocket:rsocket-bom:1.1.5 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.seleniumhq.selenium:selenium-bom:4.25.0 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.amqp:spring-amqp-bom:3.2.6 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.batch:spring-batch-bom:5.2.2 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-bom:2024.1.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework:spring-framework-bom:6.2.9 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.integration:spring-integration-bom:6.4.6 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.pulsar:spring-pulsar-bom:1.2.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.restdocs:spring-restdocs-bom:3.0.4 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.security:spring-security-bom:6.4.8 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.session:spring-session-bom:3.4.4 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.ws:spring-ws-bom:4.0.15 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.testcontainers:testcontainers-bom:1.20.6 from org.springframework.boot:spring-boot-starter-parent:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-web:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-actuator:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-jpa:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-mongodb:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-data-redis:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-validation:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.webjars:webjars-locator-core:0.59 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-json:3.4.8 from org.springframework.boot:spring-boot-starter-web:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-tomcat:3.4.8 from org.springframework.boot:spring-boot-starter-web:3.4.8
+[DEBUG] Downloaded org.springframework:spring-web:6.2.9 from org.springframework.boot:spring-boot-starter-web:3.4.8
+[DEBUG] Downloaded org.springframework:spring-webmvc:6.2.9 from org.springframework.boot:spring-boot-starter-web:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.8 from org.springframework.boot:spring-boot-starter-actuator:3.4.8
+[DEBUG] Downloaded io.micrometer:micrometer-observation:1.14.9 from org.springframework.boot:spring-boot-starter-actuator:3.4.8
+[DEBUG] Downloaded io.micrometer:micrometer-jakarta9:1.14.9 from org.springframework.boot:spring-boot-starter-actuator:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-jdbc:3.4.8 from org.springframework.boot:spring-boot-starter-data-jpa:3.4.8
+[DEBUG] Downloaded org.hibernate.orm:hibernate-core:6.6.22.Final from org.springframework.boot:spring-boot-starter-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-jpa:3.4.8 from org.springframework.boot:spring-boot-starter-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-jpa-parent:3.4.8 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework.data.build:spring-data-parent:3.4.8 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework.data.build:spring-data-build:3.4.8 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.9.0 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework:spring-aspects:6.2.9 from org.springframework.boot:spring-boot-starter-data-jpa:3.4.8
+[DEBUG] Downloaded org.mongodb:mongodb-driver-sync:5.2.1 from org.springframework.boot:spring-boot-starter-data-mongodb:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-mongodb:4.4.8 from org.springframework.boot:spring-boot-starter-data-mongodb:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-mongodb-parent:4.4.8 from org.springframework.data:spring-data-mongodb:4.4.8
+[DEBUG] Downloaded io.lettuce:lettuce-core:6.4.2.RELEASE from org.springframework.boot:spring-boot-starter-data-redis:3.4.8
+[DEBUG] Downloaded org.springframework.data:spring-data-redis:3.4.8 from org.springframework.boot:spring-boot-starter-data-redis:3.4.8
+[DEBUG] Downloaded io.netty:netty-bom:4.1.115.Final from org.springframework.data:spring-data-redis:3.4.8
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-el:10.1.43 from org.springframework.boot:spring-boot-starter-validation:3.4.8
+[DEBUG] Downloaded org.hibernate.validator:hibernate-validator:8.0.2.Final from org.springframework.boot:spring-boot-starter-validation:3.4.8
+[DEBUG] Downloaded org.hibernate.validator:hibernate-validator-parent:8.0.2.Final from org.hibernate.validator:hibernate-validator:8.0.2.Final
+[DEBUG] Downloaded org.slf4j:slf4j-api:2.0.17 from org.webjars:webjars-locator-core:0.59
+[DEBUG] Downloaded org.slf4j:slf4j-parent:2.0.17 from org.slf4j:slf4j-api:2.0.17
+[DEBUG] Downloaded org.slf4j:slf4j-bom:2.0.17 from org.slf4j:slf4j-api:2.0.17
+[DEBUG] Downloaded io.github.classgraph:classgraph:4.8.173 from org.webjars:webjars-locator-core:0.59
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-core:2.18.4.1 from org.webjars:webjars-locator-core:0.59
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-base:2.18.4.1 from com.fasterxml.jackson.core:jackson-core:2.18.4.1
+[DEBUG] Downloaded org.springframework.boot:spring-boot:3.4.8 from io.pivotal.cfenv:java-cfenv-all:3.4.0
+[DEBUG] Downloaded org.springframework.boot:spring-boot-autoconfigure:3.4.8 from org.springframework.boot:spring-boot-starter:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-logging:3.4.8 from org.springframework.boot:spring-boot-starter:3.4.8
+[DEBUG] Downloaded org.springframework:spring-core:6.2.9 from org.springframework.boot:spring-boot-starter:3.4.8
+[DEBUG] Downloaded org.yaml:snakeyaml:2.3 from org.springframework.boot:spring-boot-starter:3.4.8
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-databind:2.18.4 from org.springframework.boot:spring-boot-starter-json:3.4.8
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-base:2.18.4 from com.fasterxml.jackson.core:jackson-databind:2.18.4
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-bom:2.18.4 from com.fasterxml.jackson.core:jackson-databind:2.18.4
+[DEBUG] Downloaded com.fasterxml.jackson:jackson-parent:2.18.1 from com.fasterxml.jackson.core:jackson-databind:2.18.4
+[DEBUG] Downloaded com.fasterxml:oss-parent:61 from com.fasterxml.jackson.core:jackson-databind:2.18.4
+[DEBUG] Downloaded com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.4 from org.springframework.boot:spring-boot-starter-json:3.4.8
+[DEBUG] Downloaded com.fasterxml.jackson.module:jackson-modules-java8:2.18.4 from com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.18.4
+[DEBUG] Downloaded com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.18.4 from org.springframework.boot:spring-boot-starter-json:3.4.8
+[DEBUG] Downloaded com.fasterxml.jackson.module:jackson-module-parameter-names:2.18.4 from org.springframework.boot:spring-boot-starter-json:3.4.8
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-core:10.1.43 from org.springframework.boot:spring-boot-starter-tomcat:3.4.8
+[DEBUG] Downloaded org.apache.tomcat.embed:tomcat-embed-websocket:10.1.43 from org.springframework.boot:spring-boot-starter-tomcat:3.4.8
+[DEBUG] Downloaded org.springframework:spring-beans:6.2.9 from org.springframework:spring-web:6.2.9
+[DEBUG] Downloaded org.springframework:spring-aop:6.2.9 from org.springframework:spring-webmvc:6.2.9
+[DEBUG] Downloaded org.springframework:spring-context:6.2.9 from org.springframework:spring-webmvc:6.2.9
+[DEBUG] Downloaded org.springframework:spring-expression:6.2.9 from org.springframework:spring-webmvc:6.2.9
+[DEBUG] Downloaded org.springframework.boot:spring-boot-actuator:3.4.8 from org.springframework.boot:spring-boot-actuator-autoconfigure:3.4.8
+[DEBUG] Downloaded io.micrometer:micrometer-commons:1.14.9 from io.micrometer:micrometer-observation:1.14.9
+[DEBUG] Downloaded io.micrometer:micrometer-core:1.14.9 from io.micrometer:micrometer-jakarta9:1.14.9
+[DEBUG] Downloaded org.springframework:spring-jdbc:6.2.9 from org.springframework.boot:spring-boot-starter-jdbc:3.4.8
+[DEBUG] Downloaded org.jboss.logging:jboss-logging:3.6.1.Final from org.hibernate.orm:hibernate-core:6.6.22.Final
+[DEBUG] Downloaded org.jboss.logging:logging-parent:1.0.3.Final from org.jboss.logging:jboss-logging:3.6.1.Final
+[DEBUG] Downloaded org.jboss:jboss-parent:42 from org.jboss.logging:jboss-logging:3.6.1.Final
+[DEBUG] Downloaded org.junit:junit-bom:5.11.0 from org.jboss.logging:jboss-logging:3.6.1.Final
+[DEBUG] Downloaded org.hibernate.common:hibernate-commons-annotations:7.0.3.Final from org.hibernate.orm:hibernate-core:6.6.22.Final
+[DEBUG] Downloaded io.smallrye:jandex:3.2.0 from org.hibernate.orm:hibernate-core:6.6.22.Final
+[DEBUG] Downloaded io.smallrye:jandex-parent:3.2.0 from io.smallrye:jandex:3.2.0
+[DEBUG] Downloaded io.smallrye:smallrye-build-parent:42 from io.smallrye:jandex:3.2.0
+[DEBUG] Downloaded net.bytebuddy:byte-buddy:1.15.11 from org.hibernate.orm:hibernate-core:6.6.22.Final
+[DEBUG] Downloaded net.bytebuddy:byte-buddy-parent:1.15.11 from net.bytebuddy:byte-buddy:1.15.11
+[DEBUG] Downloaded org.springframework.data:spring-data-commons:3.4.8 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework:spring-orm:6.2.9 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.springframework:spring-tx:6.2.9 from org.springframework.data:spring-data-jpa:3.4.8
+[DEBUG] Downloaded org.aspectj:aspectjweaver:1.9.24 from org.springframework:spring-aspects:6.2.9
+[DEBUG] Downloaded org.mongodb:bson:5.2.1 from org.mongodb:mongodb-driver-sync:5.2.1
+[DEBUG] Downloaded org.mongodb:mongodb-driver-core:5.2.1 from org.mongodb:mongodb-driver-sync:5.2.1
+[DEBUG] Downloaded io.netty:netty-common:4.1.123.Final from io.lettuce:lettuce-core:6.4.2.RELEASE
+[DEBUG] Downloaded io.netty:netty-parent:4.1.123.Final from io.netty:netty-common:4.1.123.Final
+[DEBUG] Downloaded io.netty:netty-handler:4.1.123.Final from io.lettuce:lettuce-core:6.4.2.RELEASE
+[DEBUG] Downloaded io.netty:netty-transport:4.1.123.Final from io.lettuce:lettuce-core:6.4.2.RELEASE
+[DEBUG] Downloaded io.projectreactor:reactor-core:3.7.8 from io.lettuce:lettuce-core:6.4.2.RELEASE
+[DEBUG] Downloaded org.springframework.data:spring-data-keyvalue:3.4.8 from org.springframework.data:spring-data-redis:3.4.8
+[DEBUG] Downloaded org.springframework:spring-oxm:6.2.9 from org.springframework.data:spring-data-redis:3.4.8
+[DEBUG] Downloaded org.springframework:spring-context-support:6.2.9 from org.springframework.data:spring-data-redis:3.4.8
+[DEBUG] Downloaded ch.qos.logback:logback-classic:1.5.18 from org.springframework.boot:spring-boot-starter-logging:3.4.8
+[DEBUG] Downloaded ch.qos.logback:logback-parent:1.5.18 from ch.qos.logback:logback-classic:1.5.18
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-to-slf4j:2.24.3 from org.springframework.boot:spring-boot-starter-logging:3.4.8
+[DEBUG] Downloaded org.apache.logging.log4j:log4j:2.24.3 from org.apache.logging.log4j:log4j-to-slf4j:2.24.3
+[DEBUG] Downloaded org.springframework:spring-framework-bom:5.3.39 from org.apache.logging.log4j:log4j-to-slf4j:2.24.3
+[DEBUG] Downloaded org.slf4j:jul-to-slf4j:2.0.17 from org.springframework.boot:spring-boot-starter-logging:3.4.8
+[DEBUG] Downloaded org.springframework:spring-jcl:6.2.9 from org.springframework:spring-core:6.2.9
+[DEBUG] Downloaded com.fasterxml.jackson.core:jackson-annotations:2.18.4 from com.fasterxml.jackson.core:jackson-databind:2.18.4
+[DEBUG] Downloaded org.mongodb:bson-record-codec:5.2.1 from org.mongodb:mongodb-driver-core:5.2.1
+[DEBUG] Downloaded io.netty:netty-resolver:4.1.123.Final from io.netty:netty-handler:4.1.123.Final
+[DEBUG] Downloaded io.netty:netty-buffer:4.1.123.Final from io.netty:netty-handler:4.1.123.Final
+[DEBUG] Downloaded io.netty:netty-transport-native-unix-common:4.1.123.Final from io.netty:netty-handler:4.1.123.Final
+[DEBUG] Downloaded io.netty:netty-codec:4.1.123.Final from io.netty:netty-handler:4.1.123.Final
+[DEBUG] Downloaded ch.qos.logback:logback-core:1.5.18 from ch.qos.logback:logback-classic:1.5.18
+[DEBUG] Downloaded org.apache.logging.log4j:log4j-api:2.24.3 from org.apache.logging.log4j:log4j-to-slf4j:2.24.3
+[DEBUG] Downloaded org.apache.commons:commons-pool2:2.12.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.apache.commons:commons-parent:79 from org.apache.commons:commons-pool2:2.12.1
+[DEBUG] Downloaded com.h2database:h2:2.3.232 from com.example:spring-metal:0.6
+[DEBUG] Downloaded com.mysql:mysql-connector-j:9.3.0 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.postgresql:postgresql:42.7.7 from com.example:spring-metal:0.6
+[DEBUG] Downloaded com.microsoft.sqlserver:mssql-jdbc:12.8.1.jre11 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.checkerframework:checker-qual:3.49.3 from org.postgresql:postgresql:42.7.7
+[DEBUG] Downloaded org.springframework.boot:spring-boot-starter-test:3.4.8 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.awaitility:awaitility:4.2.2 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.awaitility:awaitility-parent:4.2.2 from org.awaitility:awaitility:4.2.2
+[DEBUG] Downloaded org.springframework.boot:spring-boot-test:3.4.8 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.springframework.boot:spring-boot-test-autoconfigure:3.4.8 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded net.minidev:json-smart:2.5.2 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.assertj:assertj-core:3.26.3 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter:5.11.4 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.mockito:mockito-core:5.14.2 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.mockito:mockito-junit-jupiter:5.14.2 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.springframework:spring-test:6.2.9 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.xmlunit:xmlunit-core:2.10.3 from org.springframework.boot:spring-boot-starter-test:3.4.8
+[DEBUG] Downloaded org.xmlunit:xmlunit-parent:2.10.3 from org.xmlunit:xmlunit-core:2.10.3
+[DEBUG] Downloaded net.minidev:accessors-smart:2.5.2 from net.minidev:json-smart:2.5.2
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-api:5.11.4 from org.junit.jupiter:junit-jupiter:5.11.4
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-params:5.11.4 from org.junit.jupiter:junit-jupiter:5.11.4
+[DEBUG] Downloaded org.junit.jupiter:junit-jupiter-engine:5.11.4 from org.junit.jupiter:junit-jupiter:5.11.4
+[DEBUG] Downloaded net.bytebuddy:byte-buddy-agent:1.15.11 from org.mockito:mockito-core:5.14.2
+[DEBUG] Downloaded org.ow2.asm:asm:9.7.1 from net.minidev:accessors-smart:2.5.2
+[DEBUG] Downloaded org.junit.platform:junit-platform-commons:1.11.4 from org.junit.jupiter:junit-jupiter-api:5.11.4
+[DEBUG] Downloaded org.junit.platform:junit-platform-engine:1.11.4 from org.junit.jupiter:junit-jupiter-engine:5.11.4
+[DEBUG] Downloaded org.webjars:webjars-locator-lite:1.0.1 from com.example:spring-metal:0.6
+[DEBUG] Downloaded org.junit:junit-bom:5.11.3 from org.webjars:webjars-locator-lite:1.0.1
+[DEBUG] Downloaded org.jspecify:jspecify:1.0.0 from org.webjars:webjars-locator-lite:1.0.1
+[WARNING] Changes have been made to pom.xml by:
+[WARNING]     dynamic.193.org.openrewrite.java.dependencies.UpgradeDependencyVersion
+[WARNING]         org.openrewrite.java.dependencies.UpgradeDependencyVersion: {groupId=io.pivotal.cfenv, artifactId=java-cfenv-all, newVersion=3.4.x}
+[WARNING]         dynamic.205.org.openrewrite.maven.UpgradeParentVersion
+[WARNING]             org.openrewrite.maven.UpgradeParentVersion: {groupId=org.springframework.boot, artifactId=spring-boot-starter-parent, newVersion=3.4.x}
+[WARNING]             dynamic.206.com.vmware.tanzu.spring.recipes.boot34.UpgradeSpringBoot_3_4
+[WARNING]                 com.vmware.tanzu.spring.recipes.boot34.UpgradeSpringBoot_3_4
+[WARNING]                     org.openrewrite.java.dependencies.ChangeDependency: {oldGroupId=org.webjars, oldArtifactId=webjars-locator-core, newGroupId=org.webjars, newArtifactId=webjars-locator-lite, newVersion=1.0.x}
+[WARNING] Please review and commit the results.
+[WARNING] Estimate time saved: 5m
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.197 s
+[INFO] Finished at: 2025-08-08T18:37:35+01:00
+[INFO] ------------------------------------------------------------------------

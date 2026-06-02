@@ -20,28 +20,17 @@ spring:
     jpa:
       repositories:
         enabled: true
----
-spring:
-  config:
-    activate:
-      on-profile: h2
-  datasource:
-    url: jdbc:h2:mem:musicdb
-    driver-class-name: org.h2.Driver
-    username: sa
-    password: 
-  h2:
-    console:
-      enabled: true
-      path: /h2-console
-  jpa:
-    generate-ddl: true
-    hibernate:
-      ddl-auto: create-drop
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.H2Dialect
-        format_sql: true
+  ai:
+    openai:
+      # base-url and api-key will be injected from CF binding (genai/openai)
+      chat:
+        options:
+          model: ${OPENAI_MODEL:gpt-4o-mini}
+    vectorstore:
+      pgvector:
+        initialize-schema: true
+        remove-existing-vector-store-table: false
+        table-name: ai_documents
 ---
 logging:
   level:
@@ -66,21 +55,6 @@ server:
   #  key-password: changeit
   #  key-store-type: "BCFKS"
     
----
-spring:
-  config:
-    activate:
-      on-profile: mysql
-  datasource:
-    url: "jdbc:mysql://localhost/music"
-    driver-class-name: com.mysql.jdbc.Driver
-    username:
-    password:
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQL55Dialect
-
 ---
 spring:
   config:

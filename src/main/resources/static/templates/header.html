@@ -22,4 +22,10 @@
             </ul>
         </div>
     </nav>
+
+    <!-- Assistant toggle button (matches navbar branding) -->
+    <button class="btn" ng-click="$root.chatOpen = !$root.chatOpen"
+            style="position: fixed; bottom: 20px; right: 20px; z-index: 2000; border-radius: 24px; padding: 10px 14px; background-color: black; color: white; border: 1px solid white;">
+        <span class="glyphicon glyphicon-comment"></span> Assistant
+    </button>
 </div>

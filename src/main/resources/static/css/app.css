@@ -32,6 +32,13 @@
     background-color: white;
 }
 
+/* Assistant button harmonized with header */
+.btn-assistant {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
 .icon-white {
     color: white;
 }
@@ -53,4 +60,8 @@ a {
     color: black;
     border-color: black;
 }
+
+/* Card polish */
+.thumbnail .caption h4 { margin-top: 10px; }
+.thumbnail { border-radius: 4px; overflow: hidden; }
 

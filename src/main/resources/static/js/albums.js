@@ -36,6 +36,12 @@ function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
         return JSON.parse(JSON.stringify(obj));
     }
 
+    // Album cover helper (deterministic placeholder based on album id)
+    $scope.coverUrl = function (album) {
+        if (!album || !album.id) { return 'https://picsum.photos/seed/default/300/300'; }
+        return 'https://picsum.photos/seed/' + encodeURIComponent(album.id) + '/300/300';
+    };
+
     function saveAlbum(album) {
         Albums.save(album,
             function (value, result) {
@@ -108,6 +114,10 @@ function AlbumsController($scope, $http, $modal, Albums, Album, Status) {
         $scope.setAlbumsView("grid");
         $scope.sortField = "name";
         $scope.sortDescending = false;
+        // Initialize global chat toggle
+        if (typeof $scope.$root.chatOpen === 'undefined') {
+            $scope.$root.chatOpen = false;
+        }
     };
 }
 
